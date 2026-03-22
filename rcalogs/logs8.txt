@@ -1,0 +1,559 @@
+[
+    {
+        "stepChildren": [],
+        "stepName": "多变量赋值",
+        "treeId": 2000620424069967872,
+        "status": 2,
+        "parentId": -1,
+        "action": "多变量赋值",
+        "locationInfo": {
+            "cellType": "Auto",
+            "modelId": "ec87e465dd7b4926cd3667b68410a6ff",
+            "modelVersionId": "9a4fcf1f5a6161bab0715f96196fafd0",
+            "sharedUserName": "",
+            "selectedType": "testData",
+            "displayOutputId": "SWfx1DXWr8wF3qx3GThH-1",
+            "nodeId": "Xjvlq4SYYxtVmJCAobdF-1",
+            "sharedRtcId": "",
+            "productNo": "C1024",
+            "uniqueId": "36adc182fd33764966ce4467657dbfe9"
+        },
+        "stepLog": [
+            {
+                "key": "2236442290012970187",
+                "traceId": "2000620424069967872",
+                "content": "执行步骤：多变量赋值\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-16 01:34:13",
+                "timestamp": 0,
+                "createTimestamp": 1765820053000,
+                "childLog": [],
+                "title": "执行步骤：多变量赋值\r\n"
+            },
+            {
+                "key": "-7601929113573789185",
+                "traceId": "2000620424069967872",
+                "content": "CMBT测试数据[tag]在节点[客户类型]解析完成，借记卡_开卡=借记卡_开卡\r\n",
+                "logLevel": "INFO",
+                "createTime": "2025-12-16 01:34:13",
+                "timestamp": 0,
+                "createTimestamp": 1765820053000,
+                "childLog": [],
+                "title": "CMBT测试数据[tag]在节点[客户类型]解析完成，借记卡_开卡=借记卡_开卡\r\n"
+            },
+            {
+                "key": "-8003156054953894410",
+                "traceId": "2000620424069967872",
+                "content": "CMBT测试数据[捞取条件]在节点[捞数]解析完成，[\n\t\"数币简单表.备注=${__tag}\",\n\t\"数币简单表.证件类型=P01\",\n\t\"数币简单表.影像状态=${__xImgStatus}\",\n\t\"数币简单表.证件失效日期>20260101\"\n]=[\n\t\"数币简单表.备注=借记卡_开卡\",\n\t\"数币简单表.证件类型=P01\",\n\t\"数币简单表.影像状态=A\",\n\t\"数币简单表.证件失效日期>20260101\"\n]\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-16 01:34:13",
+                "timestamp": 0,
+                "createTimestamp": 1765820053000,
+                "childLog": [],
+                "title": "CMBT测试数据[捞取条件]在节点[捞数]解析完成，[\n\t\"数币简单表.备注=${__tag}\",\n\t\"数币简单表.证件类型=P01\",\n\t\"数币简单表.影像状态=${__xImgStatus}\",\n\t\"数币简单表.证件失效日期>20260101\"\n]=[\n\t\"数币简单表.备注=借记卡_开卡\",\n\t"
+            },{
+                "key": "-5595550686528516538",
+                "traceId": "2000620424069967872",
+                "content": "CMBT测试数据[捞取字段]在节点[捞数]解析完成，[\"数币简单表.客户号\", \"数币简单表.姓名\", \"数币简单表.性别\", \"数币简单表.证件号码\", \"数币简单表.M2手机号\", \"数币简单表.证件签发日期\", \"数币简单表.证件失效日期\"]=[\"数币简单表.客户号\", \"数币简单表.姓名\", \"数币简单表.性别\", \"数币简单表.证件号码\", \"数币简单表.M2手机号\", \"数币简单表.证件签发日期\", \"数币简单表.证件失效日期\"]\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-16 01:34:13",
+                "timestamp": 0,
+                "createTimestamp": 1765820053000,
+                "childLog": [],
+                "title": "CMBT测试数据[捞取字段]在节点[捞数]解析完成，[\"数币简单表.客户号\", \"数币简单表.姓名\", \"数币简单表.性别\", \"数币简单表.证件号码\", \"数币简单表.M2手机号\", \"数币简单表.证件签发日期\", \"数币简单表.证件失效日期\"]=[\"数币简单表.客户号\", \"数币简单表.姓名\","
+            },
+            {
+                "key": "1476121880235433737",
+                "traceId": "2000620424069967872",
+                "content": "将【[\"数币简单表.备注=借记卡_开卡\",\"数币简单表.证件类型=P01\",\"数币简单表.影像状态=A\",\"数币简单表.证件失效日期>20260101\"]】赋值给【${捞取条件}】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-16 01:34:13",
+                "timestamp": 0,
+                "createTimestamp": 1765820053000,
+                "childLog": [],
+                "title": "将【[\"数币简单表.备注=借记卡_开卡\",\"数币简单表.证件类型=P01\",\"数币简单表.影像状态=A\",\"数币简单表.证件失效日期>20260101\"]】赋值给【${捞取条件}】\r\n"
+            },
+            {
+                "key": "2536230824921306802",
+                "traceId": "2000620424069967872",
+                "content": "将【[\"数币简单表.客户号\",\"数币简单表.姓名\",\"数币简单表.性别\",\"数币简单表.证件号码\",\"数币简单表.M2手机号\",\"数币简单表.证件签发日期\",\"数币简单表.证件失效日期\"]】赋值给【${捞取字段}】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-16 01:34:13",
+                "timestamp": 0,
+                "createTimestamp": 1765820053000,
+                "childLog": [],
+                "title": "将【[\"数币简单表.客户号\",\"数币简单表.姓名\",\"数币简单表.性别\",\"数币简单表.证件号码\",\"数币简单表.M2手机号\",\"数币简单表.证件签发日期\",\"数币简单表.证件失效日期\"]】赋值给【${捞取字段}】\r\n"
+            }
+        ]
+    },{
+        "stepChildren": [],
+        "stepName": "捞数",
+        "treeId": 2000620425189847040,
+        "status": 3,
+        "parentId": -1,
+        "action": "callPythonAi",
+        "locationInfo": {
+            "cellType": "Auto",
+            "modelId": "ec87e465dd7b4926cd3667b68410a6ff",
+            "modelVersionId": "9a4fcf1f5a6161bab0715f96196fafd0",
+            "sharedUserName": "",
+            "selectedType": "actions",
+            "name": "捞数",
+            "displayOutputId": "SWfx1DXWr8wF3qx3GThH-1",
+            "nodeId": "Xjvlq4SYYxtVmJCAobdF-1",
+            "sharedRtcId": "",
+            "productNo": "C1024",
+            "uniqueId": "36adc182fd33764966ce4467657dbfe9"
+        },
+        "stepLog": [
+            {
+                "key": "6178597206297755774",
+                "traceId": "2000620425189847040",
+                "content": "执行步骤：捞数\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-16 01:34:13",
+                "timestamp": 0,
+                "createTimestamp": 1765820053000,
+                "childLog": [],
+                "title": "执行步骤：捞数\r\n"
+            },
+            {
+                "key": "778164242915313140",
+                "traceId": "2000620425189847040",
+                "content": "组件入参：【need_field_values】 = 【[\"数币简单表.客户号\",\"数币简单表.姓名\",\"数币简单表.性别\",\"数币简单表.证件号码\",\"数币简单表.M2手机号\",\"数币简单表.证件签发日期\",\"数币简单表.证件失效日期\"]】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-16 01:34:13",
+                "timestamp": 0,
+                "createTimestamp": 1765820053000,
+                "childLog": [],
+                "title": "组件入参：【need_field_values】 = 【[\"数币简单表.客户号\",\"数币简单表.姓名\",\"数币简单表.性别\",\"数币简单表.证件号码\",\"数币简单表.M2手机号\",\"数币简单表.证件签发日期\",\"数币简单表.证件失效日期\"]】\r\n"
+            },{
+                "key": "2358535054795246498",
+                "traceId": "2000620425189847040",
+                "content": "组件入参：【known_field_values】 = 【[\"数币简单表.备注=借记卡_开卡\",\"数币简单表.证件类型=P01\",\"数币简单表.影像状态=A\",\"数币简单表.证件失效日期>20260101\"]】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-16 01:34:13",
+                "timestamp": 0,
+                "createTimestamp": 1765820053000,
+                "childLog": [],
+                "title": "组件入参：【known_field_values】 = 【[\"数币简单表.备注=借记卡_开卡\",\"数币简单表.证件类型=P01\",\"数币简单表.影像状态=A\",\"数币简单表.证件失效日期>20260101\"]】\r\n"
+            },
+            {
+                "key": "1431162856739212501",
+                "traceId": "2000620425189847040",
+                "content": "组件入参：【kwargs】 = 【[{\"name\":\"res_key_separator\",\"type\":\"str\",\"value\":\"_\",\"isAdd\":false},{\"name\":\"type\",\"type\":\"str\",\"value\":\"select\",\"isAdd\":false}]】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-16 01:34:13",
+                "timestamp": 0,
+                "createTimestamp": 1765820053000,
+                "childLog": [],
+                "title": "组件入参：【kwargs】 = 【[{\"name\":\"res_key_separator\",\"type\":\"str\",\"value\":\"_\",\"isAdd\":false},{\"name\":\"type\",\"type\":\"str\",\"value\":\"select\",\"isAdd\":false}]】\r\n"
+            },
+            {
+                "key": "43361874315104005",
+                "traceId": "2000620425189847040",
+                "content": "invoke python:{\"componentName\":\"捞数\",\"cloneId\":\"9e9f4c30f9928e36\",\"treeId\":\"Xjvlq4SYYxtVmJCAobdF-1:1461\",\"execDir\":\"D:\\\\.workspace/3000\\\\pyfile\\\\36adc182fd33764966ce4467657dbfe9\\\\95b172cb7800d223e98369b394cbf8fe\",\"projectDir\":\"D:\\\\.workspace/3000\\\\pyfile\\\\36adc182fd33764966ce4467657dbfe9\\\\95b172cb7800d223e98369b394cbf8fe\",\"componentId\":\"gi394xV36ks9qXcqiVFPQB\",\"productCode\":\"C1024\",\"env\":\"pro\",\"tdmEnv\":\"ST\",\"traceCaseInfo\":\"C1024;72532c7e757e48b486d4148576eb0402-【未发生二次放号】推荐人号码->有_一网通实名状态->已实名_一网通支付密码->有__客户类型->老客户（有户口）_客户资料是否缺失->不缺失;group=845076;recordBatchId=-1;testTaskCode=;pathId=95b172cb7800d223e98369b394cbf8fe;envName=ST;resultId=26837271;taskType=1;src=fastautomator;1621767\",\"traceId\":\"2000620425189847040\",\"currentUser\":\"80358722\",\"inputJson\":\"{\\\"need_field_values\\\":[\\\"数币简单表.客户号\\\",\\\"数币简单表.姓名\\\",\\\"数币简单表.性别\\\",\\\"数币简单表.证件号码\\\",\\\"数币简单表.M2手机号\\\",\\\"数币简单表.证件签发日期\\\",\\\"数币简单表.证件失效日期\\\"],\\\"known_field_values\\\":[\\\"数币简单表.备注=借记卡_开卡\\\",\\\"数币简单表.证件类型=P01\\\",\\\"数币简单表.影像状态=A\\\",\\\"数币简单表.证件失效日期>20260101\\\"],\\\"kwargs\\\":[{\\\"name\\\":\\\"res_key_separator\\\",\\\"type\\\":\\\"str\\\",\\\"value\\\":\\\"_\\\",\\\"isAdd\\\":false},{\\\"name\\\":\\\"type\\\",\\\"type\\\":\\\"str\\\",\\\"value\\\":\\\"select\\\",\\\"isAdd\\\":false}]}\",\"gaussQuotationMark\":false}\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-16 01:34:14",
+       "timestamp": 0,
+                "createTimestamp": 1765820054000,
+                "childLog": [],
+                "title": "invoke python:{\"componentName\":\"捞数\",\"cloneId\":\"9e9f4c30f9928e36\",\"treeId\":\"Xjvlq4SYYxtVmJCAobdF-1:1461\",\"execDir\":\"D:\\\\.workspace/3000\\\\pyfile\\\\36adc1"
+            },
+            {
+                "key": "883275506227597780",
+                "traceId": "2000620425189847040",
+                "msg": "{\n  \"need_field_values\": [\n    \"数币简单表.客户号\",\n    \"数币简单表.姓名\",\n    \"数币简单表.性别\",\n    \"数币简单表.证件号码\",\n    \"数币简单表.M2手机号\",\n    \"数币简单表.证件签发日期\",\n    \"数币简单表.证件失效日期\"\n  ],\n  \"known_field_values\": [\n    \"数币简单表.备注=借记卡_开卡\",\n    \"数币简单表.证件类型=P01\",\n    \"数币简单表.影像状态=A\",\n    \"数币简单表.证件失效日期>20260101\"\n  ],\n  \"kwargs\": [\n    {\n      \"name\": \"res_key_separator\",\n      \"type\": \"str\",\n      \"value\": \"_\",\n      \"isAdd\": false\n    },\n    {\n      \"name\": \"type\",\n      \"type\": \"str\",\n      \"value\": \"select\",\n      \"isAdd\": false\n    }\n  ]\n}",
+                "msgType": "json",
+                "content": "导入组件实参：",
+                "logLevel": "INFO",
+                "createTime": "2025-12-16 01:34:15",
+                "timestamp": 0,
+                "createTimestamp": 1765820055000,
+                "childLog": [],
+                "title": "导入组件实参："
+            },
+            {
+                "key": "6558800027864087466",
+                "traceId": "2000620425189847040",
+                "msg": "",
+                "msgType": "text",
+                "content": "\"ORM获取主键的SQL：SELECT v_simple_dw.ct_clt_nbr AS v_simple_dw_ct_clt_nbr, v_simple_dw.ct_clt_nam AS v_simple_dw_ct_clt_nam, v_simple_dw.ct_clt_sex AS v_simple_dw_ct_clt_sex, v_simple_dw.ct_ctf_idc AS v_simple_dw_ct_ctf_idc, v_simple_dw.ct_ctf_m2 AS v_simple_dw_ct_ctf_m2, v_simple_dw.ct_isu_dat AS v_simple_dw_ct_isu_dat, v_simple_dw.ct_val_dat AS v_simple_dw_ct_val_dat, v_simple_dw.ct_rmk_des AS v_simple_dw_ct_rmk_des, v_simple_dw.ct_job_des AS v_simple_dw_ct_job_des \\nFROM v_simple_dw \\nWHERE V_simple_dw.ct_rmk_des=\\\"借记卡_开卡\\\" and V_simple_dw.ct_ctf_typ=\\\"P01\\\" and V_simple_dw.ct_img_flg=\\\"A\\\" and V_simple_dw.ct_val_dat>\\\"20260101\\\"  and ct_pjt_crt='' limit 100\"",
+                "logLevel": "INFO",
+                "createTime": "2025-12-16 01:34:17",
+                "timestamp": 0,
+                "createTimestamp": 1765820057000,
+                "childLog": [],
+                "title": "\"ORM获取主键的SQL：SELECT v_simple_dw.ct_clt_nbr AS v_simple_dw_ct_clt_nbr, v_simple_dw.ct_clt_nam AS v_simple_dw_ct_clt_nam, v_simple_dw.ct_clt_sex AS v_si"
+            },{
+                "key": "-2698812291265253671",
+                "traceId": "2000620425189847040",
+                "msg": "",
+                "msgType": "text",
+                "content": "\"一网通账户异常--测试数据异常--资源池捞不到数据--SELECT v_simple_dw.ct_clt_nbr AS v_simple_dw_ct_clt_nbr, v_simple_dw.ct_clt_nam AS v_simple_dw_ct_clt_nam, v_simple_dw.ct_clt_sex AS v_simple_dw_ct_clt_sex, v_simple_dw.ct_ctf_idc AS v_simple_dw_ct_ctf_idc, v_simple_dw.ct_ctf_m2 AS v_simple_dw_ct_ctf_m2, v_simple_dw.ct_isu_dat AS v_simple_dw_ct_isu_dat, v_simple_dw.ct_val_dat AS v_simple_dw_ct_val_dat, v_simple_dw.ct_rmk_des AS v_simple_dw_ct_rmk_des, v_simple_dw.ct_job_des AS v_simple_dw_ct_job_des \\nFROM v_simple_dw \\nWHERE V_simple_dw.ct_rmk_des=\\\"借记卡_开卡\\\" and V_simple_dw.ct_ctf_typ=\\\"P01\\\" and V_simple_dw.ct_img_flg=\\\"A\\\" and V_simple_dw.ct_val_dat>\\\"20260101\\\"  and ct_pjt_crt='' limit 100\"",
+                "logLevel": "ERROR",
+                "createTime": "2025-12-16 01:34:18",
+                "timestamp": 0,
+                "createTimestamp": 1765820058000,
+                "childLog": [],
+                "title": "\"一网通账户异常--测试数据异常--资源池捞不到数据--SELECT v_simple_dw.ct_clt_nbr AS v_simple_dw_ct_clt_nbr, v_simple_dw.ct_clt_nam AS v_simple_dw_ct_clt_nam, v_simple_dw.ct_"
+            },
+            {
+                "key": "-7588783817331428355",
+                "traceId": "2000620425189847040",
+                "msg": "",
+                "msgType": "text",
+                "content": "\"捞不到数据记录sql表中,id=1309658013\"",
+                "logLevel": "INFO",
+                "createTime": "2025-12-16 01:34:18",
+                "timestamp": 0,
+                "createTimestamp": 1765820058000,
+                "childLog": [],
+                "title": "\"捞不到数据记录sql表中,id=1309658013\""
+            },
+            {
+                "key": "6270243283168278227",
+                "traceId": "2000620425189847040",
+                "msg": "",
+                "msgType": "text",
+                "content": "\"一网通账户异常--测试数据异常--资源池捞不到数据：\"",
+                "logLevel": "ERROR",
+                "createTime": "2025-12-16 01:34:18",
+                "timestamp": 0,
+                "createTimestamp": 1765820058000,
+                "childLog": [],
+                "title": "\"一网通账户异常--测试数据异常--资源池捞不到数据：\""
+            },
+            {
+                "key": "-5559154094226222576",
+                "traceId": "2000620425189847040",
+                "msg": "",
+                "msgType": "text",
+                "content": "捞数执行错误",
+                "logLevel": "ERROR",
+                "createTime": "2025-12-16 01:34:18",
+                "timestamp": 0,
+                "createTimestamp": 1765820058000,
+                "childLog": [],
+                "title": "捞数执行错误"
+            }, {
+                "key": "9147832607489436021",
+                "traceId": "2000620425189847040",
+                "msg": "",
+                "msgType": "text",
+                "content": "一网通账户异常--测试数据异常--资源池捞不到数据：",
+                "logLevel": "ERROR",
+                "createTime": "2025-12-16 01:34:18",
+                "timestamp": 0,
+                "createTimestamp": 1765820058000,
+                "childLog": [],
+                "title": "一网通账户异常--测试数据异常--资源池捞不到数据："
+            },
+            {
+                "key": "-4863254833057125762",
+                "traceId": "2000620425189847040",
+                "msg": "",
+                "msgType": "text",
+                "content": "Traceback (most recent call last):\n  File \"D:\\.workspace\\3000\\pyfile\\36adc182fd33764966ce4467657dbfe9\\95b172cb7800d223e98369b394cbf8fe\\projects\\9e9f4c30f9928e36\\上云自动化\\逻辑层\\CommonUtils\\DataResourcePool\\NewAutoQueryV2\\utils\\db_handle.py\", line 108, in run\n    result = lock.get_data()\n  File \"D:\\.workspace\\3000\\pyfile\\36adc182fd33764966ce4467657dbfe9\\95b172cb7800d223e98369b394cbf8fe\\projects\\9e9f4c30f9928e36\\上云自动化\\逻辑层\\CommonUtils\\DataResourcePool\\NewAutoQueryV2\\utils\\lock_handle.py\", line 44, in get_data\n    raise DataNotExistError(errmsg)\n逻辑层.CommonUtils.exceptions.DataNotExistError: 一网通账户异常--测试数据异常--资源池捞不到数据--SELECT v_simple_dw.ct_clt_nbr AS v_simple_dw_ct_clt_nbr, v_simple_dw.ct_clt_nam AS v_simple_dw_ct_clt_nam, v_simple_dw.ct_clt_sex AS v_simple_dw_ct_clt_sex, v_simple_dw.ct_ctf_idc AS v_simple_dw_ct_ctf_idc, v_simple_dw.ct_ctf_m2 AS v_simple_dw_ct_ctf_m2, v_simple_dw.ct_isu_dat AS v_simple_dw_ct_isu_dat, v_simple_dw.ct_val_dat AS v_simple_dw_ct_val_dat, v_simple_dw.ct_rmk_des AS v_simple_dw_ct_rmk_des, v_simple_dw.ct_job_des AS v_simple_dw_ct_job_des \nFROM v_simple_dw \nWHERE V_simple_dw.ct_rmk_des=\"借记卡_开卡\" and V_simple_dw.ct_ctf_typ=\"P01\" and V_simple_dw.ct_img_flg=\"A\" and V_simple_dw.ct_val_dat>\"20260101\"  and ct_pjt_crt='' limit 100\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"D:\\安装包\\FastAutomatorDesktop\\3000\\service.py\", line 2435, in run_python_process\n    exec(callStmt, locals())\n  File \"<string>\", line 3, in <module>\n  File \"C:\\Python36\\lib\\site-packages\\cmbautolog\\logger_decorator.py\", line 139, in wrap\n    return func(*args, **kwargs)\n  File \"D:\\.workspace\\3000\\pyfile\\36adc182fd33764966ce4467657dbfe9\\95b172cb7800d223e98369b394cbf8fe\\projects\\9e9f4c30f9928e36\\上云自动化\\逻辑层\\CommonUtils\\DataResourcePool\\NewAutoQueryV2\\main.py\", line 86, in new_super_query_v2\n    return Select(self.session, self.session1).run(known_field_values, need_field_values, **kwargs)\n  File \"D:\\.workspace\\3000\\pyfile\\36adc182fd33764966ce4467657dbfe9\\95b172cb7800d223e98369b394cbf8fe\\projects\\9e9f4c30f9928e36\\上云自动化\\逻辑层\\CommonUtils\\DataResourcePool\\NewAutoQueryV2\\utils\\db_handle.py\", line 141, in run\n    ra "createTime": "2025-12-16 01:34:18",
+                "timestamp": 0,
+                "createTimestamp": 1765820058000,
+                "childLog": [],
+                "title": "Traceback (most recent call last):\n  File \"D:\\.workspace\\3000\\pyfile\\36adc182fd33764966ce4467657dbfe9\\95b172cb7800d223e98369b394cbf8fe\\projects\\9e9f4c"
+            },
+            {
+                "key": "-8834809836722681021",
+                "traceId": "2000620425189847040",
+                "msg": "",
+                "msgType": "text",
+                "content": "\"GC回收时断mysql连接:<sqlalchemy.orm.session.Session object at 0x000002138DDD1860>\"",
+                "logLevel": "INFO",
+                "createTime": "2025-12-16 01:34:18",
+                "timestamp": 0,
+                "createTimestamp": 1765820058000,
+                "childLog": [],
+                "title": "\"GC回收时断mysql连接:<sqlalchemy.orm.session.Session object at 0x000002138DDD1860>\""
+            },
+            {
+                "key": "-451557524894675698",
+                "traceId": "2000620425189847040",
+                "content": "python调用失败 : 一网通账户异常--测试数据异常--资源池捞不到数据：\r\n",
+                "logLevel": "ERROR",
+                "createTime": "2025-12-16 01:34:18",
+                "timestamp": 0,
+                "createTimestamp": 1765820058000,
+                "childLog": [],
+                "title": "python调用失败 : 一网通账户异常--测试数据异常--资源池捞不到数据：\r\n"
+            }
+        ]
+    },
+    {
+        "stepChildren": [
+            {
+                "stepChildren": [],
+                "stepName": "数据删除",
+                "treeId": 2000620447373520896,
+                "status": 3,
+                "parentId": -3,
+                "action": "callPythonAi",
+                "locationInfo": {
+                    "cellType": "",
+                    "modelId": "ec87e465dd7b4926cd3667b68410a6ff",
+                    "modelVersionId": "9a4fcf1f5a6161bab0715f96196fafd0",
+                    "sharedUserName": "",
+                    "displayOutputId": "",
+                    "nodeId": "",
+                    "sharedRtcId": "",
+                    "productNo": "C1024",
+                    "uniqueId": "36adc182fd33764966ce4467657dbfe9"
+                },
+                "stepLog": [
+                    {
+                        "key": "-5969786363474368571",
+                        "traceId": "2000620447373520896",
+                        "content": "执行步骤：数据删除\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-16 01:34:19",
+                        "timestamp": 0,
+                        "createTimestamp": 1765820059000,
+                        "childLog": [],
+                        "title": "执行步骤：数据删除\r\n"
+                    },
+                    {
+                        "key": "-7883906878681487929",
+                        "traceId": "2000620447373520896",
+  "status": 3,
+                "parentId": -3,
+                "action": "callPythonAi",
+                "locationInfo": {
+                    "cellType": "",
+                    "modelId": "ec87e465dd7b4926cd3667b68410a6ff",
+                    "modelVersionId": "9a4fcf1f5a6161bab0715f96196fafd0",
+                    "sharedUserName": "",
+                    "displayOutputId": "",
+                    "nodeId": "",
+                    "sharedRtcId": "",
+                    "productNo": "C1024",
+                    "uniqueId": "36adc182fd33764966ce4467657dbfe9"
+                },
+                "stepLog": [
+                    {
+                        "key": "-5969786363474368571",
+                        "traceId": "2000620447373520896",
+                        "content": "执行步骤：数据删除\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-16 01:34:19",
+                        "timestamp": 0,
+                        "createTimestamp": 1765820059000,
+                        "childLog": [],
+                        "title": "执行步骤：数据删除\r\n"
+                    },
+                    {
+                        "key": "-7883906878681487929",
+                        "traceId": "2000620447373520896",
+                        "content": "tdm请求入参：{\"productNo\":\"C1024\",\"expression\":\"@getJsonValue(, $.数币简单表_客户号)@\",\"env\":\"ST\"}\r\n",
+                        "logLevel": "INFO",
+                        "createTime": "2025-12-16 01:34:19",
+                        "timestamp": 0,
+                        "createTimestamp": 1765820059000,
+                        "childLog": [],
+                        "title": "tdm请求入参：{\"productNo\":\"C1024\",\"expression\":\"@getJsonValue(, $.数币简单表_客户号)@\",\"env\":\"ST\"}\r\n"
+                    },
+                    {
+                        "key": "423304435637591767",
+                        "traceId": "2000620447373520896",
+                        "content": "jsonPath异常，返回空值\r\n",
+                        "logLevel": "ERROR",
+                        "createTime": "2025-12-16 01:34:19",
+                        "timestamp": 0,
+                        "createTimestamp": 1765820059000,
+                        "childLog": [],
+                        "title": "jsonPath异常，返回空值\r\n"
+                    },
+                    {
+                        "key": "2322303064425925919",
+                        "traceId": "2000620447373520896",
+                        "content": "表达式返回：\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-16 01:34:19",
+                        "timestamp": 0,
+                        "createTimestamp": 1765820059000,
+                        "childLog": [],
+                        "title": "表达式返回：\r\n"
+                    },
+                    {
+                        "key": "752802311886452563",
+                        "traceId": "2000620447373520896",
+  "content": "表达式返回：\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-16 01:34:19",
+                        "timestamp": 0,
+                        "createTimestamp": 1765820059000,
+                        "childLog": [],
+                        "title": "表达式返回：\r\n"
+                    },
+                    {
+                        "key": "752802311886452563",
+                        "traceId": "2000620447373520896",
+                        "content": "组件入参：【need_field_values】 = 【[\"数币简单表.客户号=\"]】\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-16 01:34:19",
+                        "timestamp": 0,
+                        "createTimestamp": 1765820059000,
+                        "childLog": [],
+                        "title": "组件入参：【need_field_values】 = 【[\"数币简单表.客户号=\"]】\r\n"
+                    },
+                    {
+                        "key": "826776912362016304",
+                        "traceId": "2000620447373520896",
+                        "content": "组件入参：【known_field_values】 = 【[]】\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-16 01:34:19",
+                        "timestamp": 0,
+                        "createTimestamp": 1765820059000,
+                        "childLog": [],
+                        "title": "组件入参：【known_field_values】 = 【[]】\r\n"
+                    },
+                    {
+                        "key": "-8363010713576478665",
+                        "traceId": "2000620447373520896",
+                        "content": "组件入参：【kwargs】 = 【[{\"name\":\"type\",\"type\":\"str\",\"value\":\"delete\",\"isAdd\":false}]】\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-16 01:34:19",
+                        "timestamp": 0,
+                        "createTimestamp": 1765820059000,
+                        "childLog": [],
+                        "title": "组件入参：【kwargs】 = 【[{\"name\":\"type\",\"type\":\"str\",\"value\":\"delete\",\"isAdd\":false}]】\r\n"
+                    },{
+                        "key": "-7833887043063312665",
+                        "traceId": "2000620447373520896",
+                        "content": "invoke python:{\"componentName\":\"数据删除\",\"cloneId\":\"9e9f4c30f9928e36\",\"treeId\":\"b73242f1-ea39-44a4-b2dc-c3dfe3dfb794:1462\",\"execDir\":\"D:\\\\.workspace/3000\\\\pyfile\\\\36adc182fd33764966ce4467657dbfe9\\\\95b172cb7800d223e98369b394cbf8fe\",\"projectDir\":\"D:\\\\.workspace/3000\\\\pyfile\\\\36adc182fd33764966ce4467657dbfe9\\\\95b172cb7800d223e98369b394cbf8fe\",\"componentId\":\"gi394xV36ks9qXcqiVFPQB\",\"productCode\":\"C1024\",\"env\":\"pro\",\"tdmEnv\":\"ST\",\"traceCaseInfo\":\"C1024;72532c7e757e48b486d4148576eb0402-【未发生二次放号】推荐人号码->有_一网通实名状态->已实名_一网通支付密码->有__客户类型->老客户（有户口）_客户资料是否缺失->不缺失;group=845076;recordBatchId=-1;testTaskCode=;pathId=95b172cb7800d223e98369b394cbf8fe;envName=ST;resultId=26837271;taskType=1;src=fastautomator;1621767\",\"traceId\":\"2000620447373520896\",\"currentUser\":\"80358722\",\"inputJson\":\"{\\\"need_field_values\\\":[\\\"数币简单表.客户号=\\\"],\\\"known_field_values\\\":[],\\\"kwargs\\\":[{\\\"name\\\":\\\"type\\\",\\\"type\\\":\\\"str\\\",\\\"value\\\":\\\"delete\\\",\\\"isAdd\\\":false}]}\",\"gaussQuotationMark\":false}\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-16 01:34:20",
+                        "timestamp": 0,
+                        "createTimestamp": 1765820060000,
+                        "childLog": [],
+                        "title": "invoke python:{\"componentName\":\"数据删除\",\"cloneId\":\"9e9f4c30f9928e36\",\"treeId\":\"b73242f1-ea39-44a4-b2dc-c3dfe3dfb794:1462\",\"execDir\":\"D:\\\\.workspace/3000"
+                    },
+                    {
+                        "key": "-2998597870153168894",
+                        "traceId": "2000620447373520896",
+                        "msg": "{\n  \"need_field_values\": [\n    \"数币简单表.客户号=\"\n  ],\n  \"known_field_values\": [],\n  \"kwargs\": [\n    {\n      \"name\": \"type\",\n      \"type\": \"str\",\n      \"value\": \"delete\",\n      \"isAdd\": false\n    }\n  ]\n}",
+                        "msgType": "json",
+                        "content": "导入组件实参：",
+                        "logLevel": "INFO",
+                        "createTime": "2025-12-16 01:34:21",
+                        "timestamp": 0,
+                        "createTimestamp": 1765820061000,
+                        "childLog": [],
+                        "title": "导入组件实参："
+                    },{
+                        "key": "4463647825200548247",
+                        "traceId": "2000620447373520896",
+                        "msg": "",
+                        "msgType": "text",
+                        "content": "(pymysql.err.ProgrammingError) (1064, \"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOR UPDATE SKIP LOCKED' at line 3\")\n[SQL: SELECT ct_info.ct_ptn_tag AS ct_info_ct_ptn_tag, ct_info.ct_clt_nbr AS ct_info_ct_clt_nbr, ct_info.ct_cob_tag AS ct_info_ct_cob_tag, ct_info.ct_pri_nbr AS ct_info_ct_pri_nbr, ct_info.ct_clt_nam AS ct_info_ct_clt_nam, ct_info.ct_ctf_idc AS ct_info_ct_ctf_idc, ct_info.ct_cnr_cod AS ct_info_ct_cnr_cod, ct_info.ct_ctf_typ AS ct_info_ct_ctf_typ, ct_info.ct_clt_cnr AS ct_info_ct_clt_cnr, ct_info.ct_isu_dat AS ct_info_ct_isu_dat, ct_info.ct_val_dat AS ct_info_ct_val_dat, ct_info.ct_clt_sex AS ct_info_ct_clt_sex, ct_info.ct_val_sts AS ct_info_ct_val_sts, ct_info.ct_ctf_m2 AS ct_info_ct_ctf_m2, ct_info.ct_img_flg AS ct_info_ct_img_flg, ct_info.ct_old_idt AS ct_info_ct_old_idt, ct_info.ct_ntc_uid AS ct_info_ct_ntc_uid, ct_info.ct_rcd_tim AS ct_info_ct_rcd_tim, ct_info.ct_mnt_tim AS ct_info_ct_mnt_tim, ct_info.ct_tsp_tim AS ct_info_ct_tsp_tim, ct_info.ct_rmk_des AS ct_info_ct_rmk_des, ct_info.ct_job_des AS ct_info_ct_job_des, ct_info.ct_pjt_crt AS ct_info_ct_pjt_crt, ct_info.ct_pro_val AS ct_info_ct_pro_val \nFROM ct_info \nWHERE Ct_info.ct_clt_nbr= FOR UPDATE SKIP LOCKED]\n(Background on this error at: http://sqlalche.me/e/14/f405)",
+                        "logLevel": "ERROR",
+                        "createTime": "2025-12-16 01:34:22",
+                        "timestamp": 0,
+                        "createTimestamp": 1765820062000,
+                        "childLog": [],
+                        "title": "(pymysql.err.ProgrammingError) (1064, \"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the ri"
+                    },
+                    {
+                        "key": "5100019063122846042",
+                        "traceId": "2000620447373520896",
+                        "msg": "",
+                        "msgType": "text",
+                        "content": "数据删除执行错误",
+                        "logLevel": "ERROR",
+                        "createTime": "2025-12-16 01:34:22",
+                        "timestamp": 0,
+                        "createTimestamp": 1765820062000,
+                        "childLog": [],
+                        "title": "数据删除执行错误"
+                    },
+                    {
+                        "key": "4800060430343861535",
+                        "traceId": "2000620447373520896",
+                        "msg": "",
+                        "msgType": "text",
+                        "content": "Traceback (most recent call last):\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\engine\\base.py\", line 1706, in _execute_context\n    cursor, statement, parameters, context\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\engine\\default.py\", line 681, in do_execute\n    cursor.execute(statement, parameters)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\cursors.py\", line 148, in execute\n    result = self._query(query)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\cursors.py\", line 310, in _query\n    conn.query(q)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 548, in query\n    self._affected_rows = self._read_query_result(unbuffered=unbuffered)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 775, in _read_query_result\n    result.read()\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 1156, in read\n    first_packet = self.connection._read_packet()\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 725, in _read_packet\n    packet.raise_for_error()\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\protocol.py\", line 221, in raise_for_error\n    err.raise_mysql_exception(self._data)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\err.py\", line 143, in raise_mysql_exception\n    raise errorclass(errno, errval)\npymysql.err.ProgrammingError: (1064, \"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOR UPDATE SKIP LOCKED' at line 3\")\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"D:\\安装包\\FastAutomatorDesktop\\3000\\service.py\", line 2435, in run_python_process\n    exec(callStmt, locals())\n  File \"<string>\", line 3, in <module>\n  File \"C:\\Python36\\lib\\site-packages\\cmbautolog\\logger_decorator.py\", line 139, in wrap\n    return func(*args, **kwargs)\n  File \"D:\\.workspace\\3000\\pyfile\\36adc182fd33764966ce4467657dbfe9\\95b172cb7800d223e98369b394cbf8fe\\projects\\9e9f4c30f9928e36\\上云自动化\\逻辑层\\CommonUtils\\DataResourcePool\\NewAutoQueryV2\\main.py\", line 90, in new_super_query_v2\n    return Delete(self.session).run(need_field_values, **kwargs)\n  File \"D:\\.workspace\\3000\\pyfile\\36adc182fd33764966ce4467657dbfe9\\95b172cb7800d223e98369b394cbf8fe\\projects\\9e9f4c30f9928e36\\上云自动化\\逻辑层\\CommonUtils\\DataResourcePool\\NewAutoQueryV2\\utils\\db_handle.py\", line 385, in run\n    result = lock.exec_with_lock()\n  File \"D:\\.workspace\\3000\\pyfile\\36adc182fd33764966ce4467657dbfe9\\95b172cb7800d223e98369b394cbf8fe\\projects\\9e9f4c30f9928e36\\上云自动化\\逻辑层\\CommonUtils\\DataResourcePool\\NewAutoQueryV2\\utils\\lock_handle.py\", line 48, in exec_with_lock\n    return self.handle_lock.exec_with_lock()\n  File \"D:\\.workspace\\3000\\pyfile\\36adc182fd33764966ce4467657dbfe9\\95b172cb7800d223e98369b394cbf8fe\\projects\\9e9f4c30f9928e36\\上云自动化\\逻辑层\\CommonUtils\\DataResourcePool\\NewAutoQueryV2\\utils\\lock_handle.py\", line 140, in exec_with_lock\n    key_share=self.key_share).all()  # 加互斥锁,遇锁报错\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\orm\\query.py\", line 2665, in all\n    return self._iter().all()\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\orm\\query.py\", line 2803, in _iter\n    execution_options={\"_sa_orm_load_options\": self.load_options},\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\orm\\session.py\", line 1662, in execute\n    result = conn._execute_20(statement, params or {}, execution_options)\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\engine\\base.py\", line 1520, in _execute_20\n    return meth(self, args_10style, kwargs_10style, execution_options)\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\sql\\elements.py\", line 314, in _execute_on_connection\n    self, multiparams, params, execution_options\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\engine\\base.py\", line 1399, in _execute_clauseelement\n    cache_hit=cache_hit,\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\engine\\base.py\", line 1749, in _execute_context\n    e, statement, parameters, cursor, context\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\engine\\base.py\", line 1930, in _handle_dbapi_exception\n    sqlalchemy_exception, with_traceback=exc_info[2], from_=e\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\util\\compat.py\", line 198, in raise_\n    raise exception\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\engine\\base.py\", line 1706, in _execute_context\n    cursor, statement, parameters, context\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\engine\\default.py\", line 681, in do_execute\n    cursor.execute(statement, parameters)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\cursors.py\", line 148, in execute\n    result = self._query(query)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\cursors.py\", line 310, in _query\n    conn.query(q)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 548, in query\n    self._affected_rows = self._read_query_result(unbuffered=unbuffered)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 775, in _read_query_result\n    result.read()\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 1156, in read\n    first_packet = self.connection._read_packet()\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 725, in _read_packet\n    packet.raise_for_error()\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\protocol.py\", line 221, in raise_for_error\n    err.raise_mysql_exception(self._data)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\err.py\", line 143, in raise_mysql_exception\n    raise errorclass(errno, errval)\nsqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, \"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOR UPDATE SKIP LOCKED' at line 3\")\n[SQL: SELECT ct_info.ct_ptn_tag AS ct_info_ct_ptn_tag, ct_info.ct_clt_nbr AS ct_info_ct_clt_nbr, ct_info.ct_cob_tag AS ct_info_ct_cob_tag, ct_info.ct_pri_nbr AS ct_info_ct_pri_nbr, ct_info.ct_clt_nam AS ct_info_ct_clt_nam, ct_info.ct_ctf_idc AS ct_info_ct_ctf_idc, ct_info.ct_cnr_cod AS ct_info_ct_cnr_cod, ct_info.ct_ctf_typ AS ct_info_ct_ctf_typ, ct_info.ct_clt_cnr AS ct_info_ct_clt_cnr, ct_info.ct_isu_dat AS ct_info_ct_isu_dat, ct_info.ct_val_dat AS ct_info_ct_val_dat, ct_info.ct_clt_sex AS ct_info_ct_clt_sex, ct_info.ct_val_sts AS ct_info_ct_val_sts, ct_info.ct_ctf_m2 AS ct_info_ct_ctf_m2, ct_info.ct_img_flg AS ct_info_ct_img_flg, ct_info.ct_old_idt AS ct_info_ct_old_idt, ct_info.ct_ntc_uid AS ct_info_ct_ntc_uid, ct_info.ct_rcd_tim AS ct_info_ct_rcd_tim, ct_info.ct_mnt_tim AS ct_info_ct_mnt_tim, ct_info.ct_tsp_tim AS ct_info_ct_tsp_tim, ct_info.ct_rmk_des AS ct_info_ct_rmk_des, ct_info.ct_job_des AS ct_info_ct_job_des, ct_info.ct_pjt_crt AS ct_info_ct_pjt_crt, ct_info.ct_pro_val AS ct_info_ct_pro_val \nFROM ct_info \nWHERE Ct_info.ct_clt_nbr= FOR UPDATE SKIP LOCKED]\n(Background on this error at: http://sqlalche.me/e/14/f405)",
+                        "logLevel": "ERROR",
+                        "createTime": "2025-12-16 01:34:22",
+                        "timestamp": 0,
+                        "createTimestamp": 1765820062000,
+                        "childLog": [],
+                        "title": "(pymysql.err.ProgrammingError) (1064, \"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the ri"
+                    },
+                    {
+                        "key": "5100019063122846042",
+                        "traceId": "2000620447373520896",
+                        "msg": "",
+                        "msgType": "text",
+                        "content": "数据删除执行错误",
+                        "logLevel": "ERROR",
+                        "createTime": "2025-12-16 01:34:22",
+                        "timestamp": 0,
+                        "createTimestamp": 1765820062000,
+                        "childLog": [],
+                        "title": "数据删除执行错误"
+                    },
+                    {
+                        "key": "4800060430343861535",
+                        "traceId": "2000620447373520896",
+                        "msg": "",
+                        "msgType": "text",
+                        "content": "Traceback (most recent call last):\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\engine\\base.py\", line 1706, in _execute_context\n    cursor, statement, parameters, context\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\engine\\default.py\", line 681, in do_execute\n    cursor.execute(statement, parameters)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\cursors.py\", line 148, in execute\n    result = self._query(query)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\cursors.py\", line 148, in execute\n    result = self._query(query)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\cursors.py\", line 310, in _query\n    conn.query(q)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 548, in query\n    self._affected_rows = self._read_query_result(unbuffered=unbuffered)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 775, in _read_query_result\n    result.read()\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 1156, in read\n    first_packet = self.connection._read_packet()\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 725, in _read_packet\n    packet.raise_for_error()\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\protocol.py\", line 221, in raise_for_error\n    err.raise_mysql_exception(self._data)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\err.py\", line 143, in raise_mysql_exception\n    raise errorclass(errno, errval)\npymysql.err.ProgrammingError: (1064, \"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOR UPDATE SKIP LOCKED' at line 3\")\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"D:\\安装包\\FastAutomatorDesktop\\3000\\service.py\", line 2435, in run_python_process\n    exec(callStmt, locals())\n  File \"<string>\", line 3, in <module>\n  File \"C:\\Python36\\lib\\site-packages\\cmbautolog\\logger_decorator.py\", line 139, in wrap\n    return func(*args, **kwargs)\n  File \"D:\\.workspace\\3000\\pyfile\\36adc182fd33764966ce4467657dbfe9\\95b172cb7800d223e98369b394cbf8fe\\projects\\9e9f4c30f9928e36\\上云自动化\\逻辑层\\CommonUtils\\DataResourcePool\\NewAutoQueryV2\\main.py\", line 90, in new_super_query_v2\n    return Delete(self.session).run(need_field_values, **kwargs)\n  File \"D:\\.workspace\\3000\\pyfile\\36adc182fd33764966ce4467657dbfe9\\95b172cb7800d223e98369b394cbf8fe\\projects\\9e9f4c30f9928e36\\上云自动化\\逻辑层\\CommonUtils\\DataResourcePool\\NewAutoQueryV2\\utils\\db_handle.py\", line 385, in run\n    result = lock.exec_with_lock()\n  File \"D:\\.workspace\\3000\\pyfile\\36adc182fd33764966ce4467657dbfe9\\95b172cb7800d223e98369b394cbf8fe\\projects\\9e9f4c30f9928e36\\上云自动化\\逻辑层\\CommonUtils\\DataResourcePool\\NewAutoQueryV2\\utils\\lock_handle.py\", line 48, in exec_with_lock\n    return self.handle_lock.exec_with_lock()\n  File \"D:\\.workspace\\3000\\pyfile\\36adc182fd33764966ce4467657dbfe9\\95b172cb7800d223e98369b394cbf8fe\\projects\\9e9f4c30f9928e36\\上云自动化\\逻辑层\\CommonUtils\\DataResourcePool\\NewAutoQueryV2\\utils\\lock_handle.py\", line 140, in exec_with_lock\n    key_share=self.key_share).all()  # 加互斥锁,遇锁报错\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\orm\\query.py\", line 2665, in all\n    return self._iter().all()\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\orm\\query.py\", line 2803, in _iter\n    execution_options={\"_sa_orm_load_options\": self.load_options},\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\orm\\session.py\", line 1662, in execute\n    result = conn._execute_20(statement, params or {}, execution_options)\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\engine\\base.py\", line 1520, in _execute_20\n    return meth(self, args_10style, kwargs_10style, execution_options)\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\sql\\elements.py\", line 314, in _execute_on_connection\n    self, multiparams, params, execution_options\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\engine\\base.py\", line 1399, in _execute_clauseelement\n    cache_hit=cache_hit,\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\engine\\base.py\", line 1749, in _execute_context\n    e, statement, parameters, cursor, context\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\engine\\base.py\", line 1930, in _handle_dbapi_exception\n    sqlalchemy_exception, with_traceback=exc_info[2], from_=e\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\util\\compat.py\", line 198, in raise_\n    raise exception\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\engine\\base.py\", line 1706, in _execute_context\n    cursor, statement, parameters, context\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\engine\\default.py\", line 681, in do_execute\n    cursor.execute(statement, parameters)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\cursors.py\", line 148, in execute\n    result = self._query(query)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\cursors.py\", line 310, in _query\n    conn.query(q)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 548, in query\n    self._affected_rows = self._read_query_result(unbuffered=unbuffered)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 775, in _read_query_result\n    result.read()\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 1156, in read\n    first_packet = self.connection._read_packet()\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 725, in _read_packet\n    packet.raise_for_error()\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\protocol.py\", line 221, in raise_for_error\n    err.raise_mysql_exception(self._data)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\err.py\", line 143, in raise_mysql_exception\n    raise errorclass(errno, errval)\nsqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, \"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOR UPDATE SKIP LOCKED' at line 3\")\n[SQL: SELECT ct_info.ct_ptn_tag AS ct_info_ct_ptn_tag, ct_info.ct_clt_nbr AS ct_info_ct_clt_nbr, ct_info.ct_cob_tag AS ct_info_ct_cob_tag, ct_info.ct_pri_nbr AS ct_info_ct_pri_nbr, ct_info.ct_clt_nam AS ct_info_ct_clt_nam, ct_info.ct_ctf_idc AS ct_info_ctt_pro_val \nFROM ct_info \nWHERE Ct_info.ct_clt_nbr= FOR UPDATE SKIP LOCKED]\n(Background on this error at: http://sqlalche.me/e/14/f405)",
+                        "logLevel": "ERROR",
+                        "createTime": "2025-12-16 01:34:22",
+                        "timestamp": 0,
+                        "createTimestamp": 1765820062000,
+                        "childLog": [],
+                        "title": "(pymysql.err.ProgrammingError) (1064, \"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the ri"
+                    },
+                    {
+                        "key": "5100019063122846042",
+                        "traceId": "2000620447373520896",
+                        "msg": "",
+                        "msgType": "text",
+                        "content": "数据删除执行错误",
+                        "logLevel": "ERROR",
+                        "createTime": "2025-12-16 01:34:22",
+                        "timestamp": 0,
+                        "createTimestamp": 1765820062000,
+                        "childLog": [],
+                        "title": "数据删除执行错误"
+                    },
+                    {
+                        "key": "4800060430343861535",
+                        "traceId": "2000620447373520896",
+                        "msg": "",
+                        "msgType": "text",
+                        "content": "Traceback (most recent call last):\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\engine\\base.py\", line 1706, in _execute_context\n    cursor, statement, parameters, context\n  File \"C:\\Python36\\lib\\site-packages\\sqlalchemy\\engine\\default.py\", line 681, in do_execute\n    cursor.execute(statement, parameters)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\cursors.py\", line 148, in execute\n    result = self._query(query)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\cursors.py\", line 310, in _query\n    conn.query(q)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 548, in query\n    self._affected_rows = self._read_query_result(unbuffered=unbuffered)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 775, in _read_query_result\n    result.read()\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 1156, in read\n    first_packet = self.connection._read_packet()\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\connections.py\", line 725, in _read_packet\n    packet.raise_for_error()\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\protocol.py\", line 221, in raise_for_error\n    err.raise_mysql_exception(self._data)\n  File \"C:\\Python36\\lib\\site-packages\\pymysql\\err.py\", line 143, in raise_mysql_exception\n    raise errorclass(errno, errval)\npymysql.err.ProgrammingError: (1064, \"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOR UPDATE SKIP LOCKED' at line 3\")\r\n",
+                        "logLevel": "ERROR",
+                        "createTime": "2025-12-16 01:34:22",
+                        "timestamp": 0,
+                        "createTimestamp": 1765820062000,
+                        "childLog": [],
+                        "title": "python调用失败 : (pymysql.err.ProgrammingError) (1064, \"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server versi"
+                    }
+                ]
+            }
+        ],
+        "stepName": "Teardown",
+        "treeId": -3,
+        "status": 2,
+        "stepLog": [
+            {
+                "key": "2000620447373520896",
+                "traceId": "2000620447373520896",
+                "content": "执行步骤：数据删除",
+                "logLevel": "ERROR",
+                "createTime": "2025-12-16 01:34:19",
+                "createTimestamp": 1765820059041,
+                "childLog": [],
+                "title": "执行步骤：数据删除"
+            }
+        ]
+    }
+]

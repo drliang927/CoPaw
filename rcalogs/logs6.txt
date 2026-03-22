@@ -1,0 +1,153 @@
+[
+    {
+        "stepChildren": [],
+        "stepName": "OnlineBranchBffLogin()OnlineBranchWeb_login",
+        "treeId": 1999681103048183808,
+        "status": 3,
+        "parentId": -1,
+        "action": "callPythonAi",
+        "locationInfo": {
+            "cellType": "Process",
+            "modelId": "30ad9712657a3b1d6eeb6a2a67298c54",
+            "modelVersionId": "6ea895ddc15045d2fbb9d503860a9a65",
+            "sharedUserName": "",
+            "selectedType": "actions",
+            "name": "OnlineBranchBffLogin()OnlineBranchWeb_login",
+            "displayOutputId": "arHmIsf_xfVP5MqLCbL_-3",
+            "nodeId": "arHmIsf_xfVP5MqLCbL_-4",
+            "sharedRtcId": "",
+            "productNo": "C0752",
+            "uniqueId": "99ab1d6f2b6d16f1ea0eac18e78a9d26"
+        },
+        "stepLog": [
+            {
+                "key": "553698104993660421",
+                "traceId": "1999681103048183808",
+                "content": "执行步骤：OnlineBranchBffLogin()OnlineBranchWeb_login\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:21:41",
+                "timestamp": 0,
+                "createTimestamp": 1765596101000,
+                "childLog": [],
+                "title": "执行步骤：OnlineBranchBffLogin()OnlineBranchWeb_login\r\n"
+            },
+            {
+                "key": "-5596596002173126543",
+                "traceId": "1999681103048183808",
+                "content": "数据画布函数请求：ExecCanvasFunctionRequestDto(productNo=C0752, expression=@execSql(线上店, onlinebranchdb, {\"keepType\":false,\"trim\":false,\"limit\":10,\"sharding\":false}, select * from branch_reviewer br where branch_no ='@execDatapoolSql({\"keepType\":false,\"trim\":false,\"limit\":10,\"lock\":false,\"consume\":false},SELECT * FROM `客户经理数据` where flag = '4',$.0.branchNo)@', $.0.yst_id)@, env=UAT, uuid=null, pythonScriptUuid=null, lockDataUuid=null, username=null, recordRequestDto=null)\r\n",
+                "logLevel": "INFO",
+                "createTime": "2025-12-13 11:21:41",
+                "timestamp": 0,
+                "createTimestamp": 1765596101000,
+                "childLog": [],
+                "title": "数据画布函数请求：ExecCanvasFunctionRequestDto(productNo=C0752, expression=@execSql(线上店, onlinebranchdb, {\"keepType\":false,\"trim\":false,\"limit\":10,\"sharding\":f"
+            },{
+                "key": "2372648875701588445",
+                "traceId": "1999681103048183808",
+                "content": "组件入参：【env】 = 【UAT】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:21:42",
+                "timestamp": 0,
+                "createTimestamp": 1765596102000,
+                "childLog": [],
+                "title": "组件入参：【env】 = 【UAT】\r\n"
+            },
+            {
+                "key": "-7911408579926549003",
+                "traceId": "1999681103048183808",
+                "content": "组件入参：【ystId】 = 【140541】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:21:42",
+                "timestamp": 0,
+                "createTimestamp": 1765596102000,
+                "childLog": [],
+                "title": "组件入参：【ystId】 = 【140541】\r\n"
+            },
+            {
+                "key": "8881180521244548349",
+                "traceId": "1999681103048183808",
+                "content": "invoke python:{\"componentName\":\"OnlineBranchBffLogin()OnlineBranchWeb_login\",\"cloneId\":\"5e7f8fa69bd9b988\",\"treeId\":\"arHmIsf_xfVP5MqLCbL_-4:147040\",\"execDir\":\"C:\\\\.workspace/3000\\\\pyfile\\\\99ab1d6f2b6d16f1ea0eac18e78a9d26\\\\54a1644a585de3b177a79c292da71c9e\",\"projectDir\":\"C:\\\\.workspace/3000\\\\pyfile\\\\99ab1d6f2b6d16f1ea0eac18e78a9d26\\\\54a1644a585de3b177a79c292da71c9e\",\"componentId\":\"gi353Li8u3Yw3fefhruGM9\",\"productCode\":\"C0752\",\"env\":\"pro\",\"tdmEnv\":\"UAT\",\"traceCaseInfo\":\"C0752;d7e07699e61245f997be67122e5a6728-Test Case_086_审核人账号是否为空_审核人账号是否存在_账号不存在异常;group=417055;recordBatchId=-1;testTaskCode=;pathId=54a1644a585de3b177a79c292da71c9e;envName=UAT;resultId=26720687;taskType=1;src=fastautomator;1613621\",\"traceId\":\"1999681103048183808\",\"currentUser\":\"IT008914\",\"inputJson\":\"{\\\"env\\\":\\\"UAT\\\",\\\"ystId\\\":\\\"140541\\\"}\",\"gaussQuotationMark\":false}\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:21:42",
+                "timestamp": 0,
+                "createTimestamp": 1765596102000,
+                "childLog": [],
+                "title": "invoke python:{\"componentName\":\"OnlineBranchBffLogin()OnlineBranchWeb_login\",\"cloneId\":\"5e7f8fa69bd9b988\",\"treeId\":\"arHmIsf_xfVP5MqLCbL_-4:147040\",\"ex"
+            },{
+                "key": "6970736565913787132",
+                "traceId": "1999681103048183808",
+                "msg": "{\n  \"env\": \"UAT\",\n  \"ystId\": \"140541\"\n}",
+                "msgType": "json",
+                "content": "导入组件实参：",
+                "logLevel": "INFO",
+                "createTime": "2025-12-13 11:21:43",
+                "timestamp": 0,
+                "createTimestamp": ***敏感信息系统已自动屏蔽***00,
+                "childLog": [],
+                "title": "导入组件实参："
+            },
+            {
+                "key": "-5558***敏感信息系统已自动屏蔽***8456",
+                "traceId": "1999681103048183808",
+                "msg": "",
+                "msgType": "text",
+                "content": "C:\\.workspace\\3000\\pyfile\\99ab1d6f2b6d16f1ea0eac18e78a9d26\\54a1644a585de3b177a79c292da71c9e\\projects\\5e7f8fa69bd9b988\\OneNetCommunity",
+                "logLevel": "INFO",
+                "createTime": "2025-12-13 11:21:43",
+                "timestamp": 0,
+                "createTimestamp": ***敏感信息系统已自动屏蔽***00,
+                "childLog": [],
+                "title": "C:\\.workspace\\3000\\pyfile\\99ab1d6f2b6d16f1ea0eac18e78a9d26\\54a1644a585de3b177a79c292da71c9e\\projects\\5e7f8fa69bd9b988\\OneNetCommunity"
+            },
+            {
+                "key": "-422729650954950161",
+                "traceId": "1999681103048183808",
+                "msg": "",
+                "msgType": "text",
+                "content": "OnlineBranchBffLogin()OnlineBranchWeb_login执行错误",
+                "logLevel": "ERROR",
+                "createTime": "2025-12-13 11:21:44",
+                "timestamp": 0,
+                "createTimestamp": ***敏感信息系统已自动屏蔽***00,
+                "childLog": [],
+                "title": "OnlineBranchBffLogin()OnlineBranchWeb_login执行错误"
+            },
+            {
+                "key": "8331274979495077907",
+                "traceId": "1999681103048183808",
+                "msg": "",
+                "msgType": "text",
+                "content": "'loginUrl'",
+                "logLevel": "ERROR",
+                "createTime": "2025-12-13 11:21:44",
+                "timestamp": 0,
+                "createTimestamp": ***敏感信息系统已自动屏蔽***00,
+                "childLog": [],
+                "title": "'loginUrl'"
+            },
+            {
+                "key": "-6505936408017642837",
+                "traceId": "1999681103048183808",
+                "content": "python调用失败 : loginUrl\r\n",
+                "logLevel": "ERROR",
+                "createTime": "2025-12-13 11:21:44",
+                "timestamp": 0,
+                "createTimestamp": ***敏感信息系统已自动屏蔽***00,
+                "childLog": [],
+                "title": "python调用失败 : loginUrl\r\n"
+            },{
+                "key": "-5521396161973692822",
+                "traceId": "1999681103048183808",
+                "msg": "",
+                "msgType": "text",
+                "content": "Traceback (most recent call last):\n  File \"C:\\FastAutomatorDesktop_prod_V2.0.0.1\\3000\\service.py\", line 2435, in run_python_process\n    exec(callStmt, locals())\n  File \"<string>\", line 1, in <module>\n  File \"C:\\Python37\\lib\\site-packages\\cmbautolog\\logger_decorator.py\", line 139, in wrap\n    return func(*args, **kwargs)\n  File \"C:\\.workspace\\3000\\pyfile\\99ab1d6f2b6d16f1ea0eac18e78a9d26\\54a1644a585de3b177a79c292da71c9e\\projects\\5e7f8fa69bd9b988\\OneNetCommunity\\common\\online_componet.py\", line 236, in OnlineBranchWeb_login\n    loginUrl = self.branchOnline_login(env, ystId)[0]\n  File \"C:\\.workspace\\3000\\pyfile\\99ab1d6f2b6d16f1ea0eac18e78a9d26\\54a1644a585de3b177a79c292da71c9e\\projects\\5e7f8fa69bd9b988\\OneNetCommunity\\common\\online_componet.py\", line 223, in branchOnline_login\n    loginUrl = response.json()['loginUrl']\nKeyError: 'loginUrl'\n",
+                "logLevel": "ERROR",
+                "createTime": "2025-12-13 11:21:44",
+                "timestamp": 0,
+                "createTimestamp": 1765596104000,
+                "childLog": [],
+                "title": "Traceback (most recent call last):\n  File \"C:\\FastAutomatorDesktop_prod_V2.0.0.1\\3000\\service.py\", line 2435, in run_python_process\n    exec(callStmt,"
+            }
+        ]
+    }
+]

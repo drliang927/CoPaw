@@ -1,0 +1,386 @@
+{
+                "key": "8582944501394886943",
+                "traceId": "1999683991275278336",
+                "content": "数据画布函数请求：ExecCanvasFunctionRequestDto(productNo=C0752, expression=@constant(AITEST )@, env=UAT, uuid=null, pythonScriptUuid=null, lockDataUuid=null, username=null, recordRequestDto=null)\r\n",
+                "logLevel": "INFO",
+                "createTime": "2025-12-13 11:33:10",
+                "timestamp": 0,
+                "createTimestamp": 1765596790000,
+                "childLog": [],
+                "title": "数据画布函数请求：ExecCanvasFunctionRequestDto(productNo=C0752, expression=@constant(AITEST )@, env=UAT, uuid=null, pythonScriptUuid=null, lockDataUuid=null, u"
+            },
+            {
+                "key": "-1922392537202493129",
+                "traceId": "1999683991275278336",
+                "content": "CMBT测试数据[skillIds]在节点[能力标签Id校验]解析完成，@constant(AITEST )@=AITEST \r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:10",
+                "timestamp": 0,
+                "createTimestamp": 1765596790000,
+                "childLog": [],
+                "title": "CMBT测试数据[skillIds]在节点[能力标签Id校验]解析完成，@constant(AITEST )@=AITEST \r\n"
+            },
+            {
+                "key": "1741454708203751812",
+                "traceId": "1999683991275278336",
+                "content": "将【AITEST 】赋值给【${skillIds}】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:10",
+                "timestamp": 0,
+                "createTimestamp": 1765596790000,
+                "childLog": [],
+                "title": "将【AITEST 】赋值给【${skillIds}】\r\n"
+            }
+        ]
+    },{
+        "stepChildren": [],
+        "stepName": "名片相关接口_能力标签点赞",
+        "treeId": 1999683991484993536,
+        "status": 2,
+        "parentId": -1,
+        "action": "callPythonAi",
+        "locationInfo": {
+            "cellType": "Decision",
+            "modelId": "354f8ccdbdd1a9237f9d8c3c7799f909",
+            "modelVersionId": "de6f6fc0023f3f1dc046f7c176448c3f",
+            "sharedUserName": "",
+            "selectedType": "actions",
+            "name": "名片相关接口_能力标签点赞",
+            "displayOutputId": "SYFall0v0ahVv6GAlcch-2",
+            "nodeId": "mPzS0OjHfgsyPqw01E0G-12",
+            "sharedRtcId": "",
+            "productNo": "C0752",
+            "uniqueId": "e45182af36bb0cdb61559fd08eff42c8"
+        },
+        "stepLog": [
+            {
+                "key": "6682534794067128074",
+                "traceId": "1999683991484993536",
+                "content": "执行步骤：名片相关接口_能力标签点赞\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:10",
+                "timestamp": 0,
+                "createTimestamp": 1765596790000,
+                "childLog": [],
+                "title": "执行步骤：名片相关接口_能力标签点赞\r\n"
+            },
+            {
+                "key": "-889000462920426690",
+                "traceId": "1999683991484993536",
+                "content": "组件入参：【${$.QUERY_DATA.action}】 = 【up】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:10",
+                "timestamp": 0,
+                "createTimestamp": 1765596790000,
+                "childLog": [],
+                "title": "组件入参：【${$.QUERY_DATA.action}】 = 【up】\r\n"
+            },
+            {
+                "key": "-1547736727496608151",
+                "traceId": "1999683991484993536",
+                "content": "组件入参：【${$.QUERY_DATA.ccid}】 = 【null】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:10",
+                "timestamp": 0,
+                "createTimestamp": 1765596790000,
+                "childLog": [],
+                "title": "组件入参：【${$.QUERY_DATA.ccid}】 = 【null】\r\n"
+            },
+            {
+                "key": "-7726019066678697539",
+                "traceId": "1999683991484993536",
+                "content": "组件入参：【${$.QUERY_DATA.skillIds}】 = 【AITEST 】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:10",
+                "timestamp": 0,
+                "createTimestamp": 1765596790000,
+                "childLog": [],
+                "title": "组件入参：【${$.QUERY_DATA.skillIds}】 = 【AITEST 】\r\n"
+            },{
+                "key": "5318861381151510931",
+                "traceId": "1999683991484993536",
+                "content": "组件入参：【${kwargs}】 = 【[]】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:10",
+                "timestamp": 0,
+                "createTimestamp": 1765596790000,
+                "childLog": [],
+                "title": "组件入参：【${kwargs}】 = 【[]】\r\n"
+            },
+            {
+                "key": "-936190624196219463",
+                "traceId": "1999683991484993536",
+                "content": "invoke python:{\"componentName\":\"名片相关接口_能力标签点赞\",\"cloneId\":\"\",\"treeId\":\"mPzS0OjHfgsyPqw01E0G-12:147325\",\"execDir\":\"C:\\\\.workspace/3000\\\\pyfile\\\\e45182af36bb0cdb61559fd08eff42c8\\\\50756678d6df0076a7b4ece76dd41c88\",\"projectDir\":\"C:\\\\.workspace/3000\\\\pyfile\\\\e45182af36bb0cdb61559fd08eff42c8\\\\50756678d6df0076a7b4ece76dd41c88\",\"componentId\":\"si20251020155057127512\",\"productCode\":\"C0752\",\"env\":\"pro\",\"tdmEnv\":\"UAT\",\"traceCaseInfo\":\"C0752;30443fa611d64deeb22bcb924fc31eae-客户经理ccid校验->有效值_能力标签Id校验->无效值_返回成功，数据无落库_(1);group=417055;recordBatchId=-1;testTaskCode=;pathId=50756678d6df0076a7b4ece76dd41c88;envName=UAT;resultId=26720368;taskType=1;src=fastautomator;1613621\",\"traceId\":\"1999683991484993536\",\"currentUser\":\"IT007241\",\"inputJson\":\"{\\\"${$.QUERY_DATA.action}\\\":\\\"up\\\",\\\"${$.QUERY_DATA.ccid}\\\":null,\\\"${$.QUERY_DATA.skillIds}\\\":\\\"AITEST \\\",\\\"${kwargs}\\\":[]}\",\"gaussQuotationMark\":false}\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:10",
+                "timestamp": 0,
+                "createTimestamp": 1765596790000,
+                "childLog": [],
+                "title": "invoke python:{\"componentName\":\"名片相关接口_能力标签点赞\",\"cloneId\":\"\",\"treeId\":\"mPzS0OjHfgsyPqw01E0G-12:147325\",\"execDir\":\"C:\\\\.workspace/3000\\\\pyfile\\\\e45182af"
+            },
+            {
+                "key": "-3948876309606769006",
+                "traceId": "1999683991484993536",
+                "msg": "\n{\n    \"env\": \"UAT\",\n    \"url\": \"http://moka-app-bff.paasuat.cmbchina.cn\",\n    \"uri\": \"/card/likeSkill\",\n    \"protocol\": \"http\",\n    \"method\": \"get\",\n    \"headers\": {\n        \"Content-Type\": \"application/json\"\n    },\n    \"settings\": {\n        \"params\": {\n            \"action\": \"up\",\n            \"ccid\": null,\n            \"skillIds\": \"AITEST \"\n        },\n        \"is_only_query\": true\n    },\n    \"type\": \"json\",\n    \"exec_dir\": \"C:\\\\.workspace/3000\\\\pyfile\\\\e45182af36bb0cdb61559fd08eff42c8\\\\50756678d6df0076a7b4ece76dd41c88\",\n    \"performance_flag\": 0\n}",
+                "msgType": "json",
+                "content": "当前发送系统信息：",
+                "logLevel": "DEBUG","createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "当前发送系统信息："
+            },
+            {
+                "key": "-775625270611210492",
+                "traceId": "1999683991484993536",
+                "msg": "",
+                "msgType": "text",
+                "content": "当前接口报文协议：http",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "当前接口报文协议：http"
+            },
+            {
+                "key": "-3319571702111956635",
+                "traceId": "1999683991484993536",
+                "msg": "\n{\n    \"action\": \"up\",\n    \"ccid\": null,\n    \"skillIds\": \"AITEST \"\n}",
+                "msgType": "json",
+                "content": "发送组包后报文",
+                "logLevel": "INFO",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "发送组包后报文"
+            },
+            {
+                "key": "6959900163447196793",
+                "traceId": "1999683991484993536",
+                "msg": "",
+                "msgType": "text",
+                "content": "b'{\"errors\":\"ccid\",\"info\":null,\"message\":\"params_invalid\",\"returnInfo\":null}'",
+                "logLevel": "INFO",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "b'{\"errors\":\"ccid\",\"info\":null,\"message\":\"params_invalid\",\"returnInfo\":null}'"
+            },
+            {
+                "key": "-5350231681291784435",
+                "traceId": "1999683991484993536",
+                "content": "【名片相关接口_能力标签点赞】执行结果：【{\"request_data\":{\"action\":\"up\",\"ccid\":null,\"skillIds\":\"AITEST \"},\"response_data\":{\"errors\":\"ccid\",\"info\":null,\"message\":\"params_invalid\",\"returnInfo\":null},\"res_info\":{\"url\":\"http://moka-app-bff.paasuat.cmbchina.cn\",\"uri\":\"/card/likeSkill\",\"ip\":\"\",\"port\":0,\"protocol\":\"http\",\"status_code\":400,\"headers\":{\"Bee-Subapi-Restful\":\"/card/likeSkill\",\"Content-Length\":\"74\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Date\":\"Sat, 13 Dec 2025 03:33:11 GMT\",\"X-B3-Returncode\":\"SUC0000\"},\"cookies\":{},\"content\":{\"errors\":\"ccid\",\"info\":null,\"message\":\"params_invalid\",\"returnInfo\":null},\"elapsed\":0.016369,\"request_headers\":{\"User-Agent\":\"python-requests/2.28.1\",\"Accept-Encoding\":\"gzip, deflate\",\"Accept\":\"*/*\",\"Connection\":\"keep-alive\",\"Content-Type\":\"application/json\"}}}】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "【名片相关接口_能力标签点赞】执行结果：【{\"request_data\":{\"action\":\"up\",\"ccid\":null,\"skillIds\":\"AITEST \"},\"response_data\":{\"errors\":\"ccid\",\"info\":null,\"message\":\"params_i"
+            },
+            {
+                "key": "-8659059151694544837",
+                "traceId": "1999683991484993536",
+                "msg": "\n{\n    \"errors\": \"ccid\",\n    \"info\": null,\n    \"message\": \"params_invalid\",\n    \"returnInfo\": null\n}",
+                "msgType": "json",
+                "content": "响应报文",
+                "logLevel": "INFO",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "响应报文"
+            },
+            {
+                "key": "-6111214389329334089",
+                "traceId": "1999683991484993536",
+                "content": "解析python返回变量【${名片相关接口_能力标签点赞.request_data}】=【{\"action\":\"up\",\"ccid\":null,\"skillIds\":\"AITEST \"}】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "解析python返回变量【${名片相关接口_能力标签点赞.request_data}】=【{\"action\":\"up\",\"ccid\":null,\"skillIds\":\"AITEST \"}】\r\n"
+            },
+            {
+                "key": "1416830697842869258",
+                "traceId": "1999683991484993536",
+                "content": "解析python返回变量【${能力标签点赞.response_data}】=【{\"errors\":\"ccid\",\"info\":null,\"message\":\"params_invalid\",\"returnInfo\":null}】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "解析python返回变量【${能力标签点赞.response_data}】=【{\"errors\":\"ccid\",\"info\":null,\"message\":\"params_invalid\",\"returnInfo\":null}】\r\n"
+            },{
+                "key": "-4569264893078099798",
+                "traceId": "1999683991484993536",
+                "content": "解析python返回变量【${名片相关接口_能力标签点赞.res_info}】=【{\"url\":\"http://moka-app-bff.paasuat.cmbchina.cn\",\"uri\":\"/card/likeSkill\",\"ip\":\"\",\"port\":0,\"protocol\":\"http\",\"status_code\":400,\"headers\":{\"Bee-Subapi-Restful\":\"/card/likeSkill\",\"Content-Length\":\"74\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Date\":\"Sat, 13 Dec 2025 03:33:11 GMT\",\"X-B3-Returncode\":\"SUC0000\"},\"cookies\":{},\"content\":{\"errors\":\"ccid\",\"info\":null,\"message\":\"params_invalid\",\"returnInfo\":null},\"elapsed\":0.016369,\"request_headers\":{\"User-Agent\":\"python-requests/2.28.1\",\"Accept-Encoding\":\"gzip, deflate\",\"Accept\":\"*/*\",\"Connection\":\"keep-alive\",\"Content-Type\":\"application/json\"}}】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "解析python返回变量【${名片相关接口_能力标签点赞.res_info}】=【{\"url\":\"http://moka-app-bff.paasuat.cmbchina.cn\",\"uri\":\"/card/likeSkill\",\"ip\":\"\",\"port\":0,\"protocol\":\"http\",\""
+            }
+        ]
+    },{
+        "stepChildren": [],
+        "stepName": "Json比对",
+        "treeId": 1999683994337120256,
+        "status": 3,
+        "parentId": -1,
+        "action": "callPythonAi",
+        "locationInfo": {
+            "cellType": "Decision",
+            "modelId": "354f8ccdbdd1a9237f9d8c3c7799f909",
+            "modelVersionId": "de6f6fc0023f3f1dc046f7c176448c3f",
+            "sharedUserName": "",
+            "selectedType": "actions",
+            "name": "Json比对",
+            "displayOutputId": "SYFall0v0ahVv6GAlcch-2",
+            "nodeId": "mPzS0OjHfgsyPqw01E0G-12",
+            "sharedRtcId": "",
+            "productNo": "C0752",
+            "uniqueId": "e45182af36bb0cdb61559fd08eff42c8"
+        },
+        "stepLog": [
+            {
+                "key": "4796771795166230126",
+                "traceId": "1999683994337120256",
+                "content": "执行步骤：Json比对\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "执行步骤：Json比对\r\n"
+            },
+            {
+                "key": "6918589230754432088",
+                "traceId": "1999683994337120256",
+                "content": "组件入参：【real_json】 = 【{\"errors\":\"ccid\",\"info\":null,\"message\":\"params_invalid\",\"returnInfo\":null}】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "组件入参：【real_json】 = 【{\"errors\":\"ccid\",\"info\":null,\"message\":\"params_invalid\",\"returnInfo\":null}】\r\n"
+            },{
+                "key": "-5352919102139905924",
+                "traceId": "1999683994337120256",
+                "content": "组件入参：【expected_json】 = 【{\"code\":\"SUCCESS\",\"data\":null,\"message\":\"成功\",\"returnInfo\":{\"errorMsg\":\"\",\"returnCode\":\"SUC0000\"}}】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "组件入参：【expected_json】 = 【{\"code\":\"SUCCESS\",\"data\":null,\"message\":\"成功\",\"returnInfo\":{\"errorMsg\":\"\",\"returnCode\":\"SUC0000\"}}】\r\n"
+            },
+            {
+                "key": "379478363903516801",
+                "traceId": "1999683994337120256",
+                "content": "组件入参：【is_continue】 = 【false】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "组件入参：【is_continue】 = 【false】\r\n"
+            },
+            {
+                "key": "-2707406820227075231",
+                "traceId": "1999683994337120256",
+                "content": "组件入参：【ignore_list】 = 【[]】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "组件入参：【ignore_list】 = 【[]】\r\n"
+            },{
+                "key": "-7087292923609027908",
+                "traceId": "1999683994337120256",
+                "content": "组件入参：【is_upper】 = 【false】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "组件入参：【is_upper】 = 【false】\r\n"
+            },
+            {
+                "key": "-1890321985094566061",
+                "traceId": "1999683994337120256",
+                "content": "组件入参：【trim】 = 【false】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "组件入参：【trim】 = 【false】\r\n"
+            },
+            {
+                "key": "8211987595959686317",
+                "traceId": "1999683994337120256",
+                "content": "组件入参：【kwargs】 = 【[]】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "组件入参：【kwargs】 = 【[]】\r\n"
+            },
+            {
+                "key": "-4560964320308961649",
+                "traceId": "1999683994337120256",
+                "content": "invoke python:{\"componentName\":\"Json比对\",\"cloneId\":\"\",\"treeId\":\"mPzS0OjHfgsyPqw01E0G-12:147326\",\"execDir\":\"C:\\\\.workspace/3000\\\\pyfile\\\\e45182af36bb0cdb61559fd08eff42c8\\\\50756678d6df0076a7b4ece76dd41c88\",\"projectDir\":\"C:\\\\.workspace/3000\\\\pyfile\\\\e45182af36bb0cdb61559fd08eff42c8\\\\50756678d6df0076a7b4ece76dd41c88\",\"componentId\":\"bi3001\",\"productCode\":\"C0752\",\"env\":\"pro\",\"tdmEnv\":\"UAT\",\"traceCaseInfo\":\"C0752;30443fa611d64deeb22bcb924fc31eae-客户经理ccid校验->有效值_能力标签Id校验->无效值_返回成功，数据无落库_(1);group=417055;recordBatchId=-1;testTaskCode=;pathId=50756678d6df0076a7b4ece76dd41c88;envName=UAT;resultId=26720368;taskType=1;src=fastautomator;1613621\",\"traceId\":\"1999683994337120256\",\"currentUser\":\"IT007241\",\"inputJson\":\"{\\\"real_json\\\":{\\\"errors\\\":\\\"ccid\\\",\\\"info\\\":null,\\\"message\\\":\\\"params_invalid\\\",\\\"returnInfo\\\":null},\\\"expected_json\\\":{\\\"code\\\":\\\"SUCCESS\\\",\\\"data\\\":null,\\\"message\\\":\\\"成功\\\",\\\"returnInfo\\\":{\\\"errorMsg\\\":\\\"\\\",\\\"returnCode\\\":\\\"SUC0000\\\"}},\\\"is_continue\\\":false,\\\"ignore_list\\\":[],\\\"is_upper\\\":false,\\\"trim\\\":false,\\\"kwargs\\\":[]}\",\"gaussQuotationMark\":false}\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "invoke python:{\"componentName\":\"Json比对\",\"cloneId\":\"\",\"treeId\":\"mPzS0OjHfgsyPqw01E0G-12:147326\",\"execDir\":\"C:\\\\.workspace/3000\\\\pyfile\\\\e45182af36bb0cd"
+            },
+            {
+                "key": "-112336974492909436",
+                "traceId": "1999683994337120256",
+                "msg": "[{\"key\": \"0\", \"keyName\": \"code\", \"realVal\": \"实际值不存在\", \"exceptVal\": \"SUCCESS\", \"result\": \"fail\"}, {\"key\": \"1\", \"keyName\": \"data\", \"realVal\": \"实际值不存在\", \"exceptVal\": null, \"result\": \"fail\"}, {\"key\": \"2\", \"keyName\": \"message\", \"realVal\": \"params_invalid\", \"exceptVal\": \"成功\", \"result\": \"fail\"}, {\"key\": \"3\", \"keyName\": \"returnInfo_errorMsg\", \"realVal\": \"实际值不存在\", \"exceptVal\": \"\", \"result\": \"fail\"}, {\"key\": \"4\", \"keyName\": \"returnInfo_returnCode\", \"realVal\": \"实际值不存在\", \"exceptVal\": \"SUC0000\", \"result\": \"fail\"}, {\"key\": \"5\", \"keyName\": \"errors\", \"realVal\": \"ccid\", \"exceptVal\": \"\", \"result\": \"ignore\"}, {\"key\": \"6\", \"keyName\": \"info\", \"realVal\": null, \"exceptVal\": \"\", \"result\": \"ignore\"}, {\"key\": \"7\", \"keyName\": \"returnInfo\", \"realVal\": null, \"exceptVal\": \"\", \"result\": \"ignore\"}]",
+                "msgType": "verifyTable",
+                "content": "比对校验失败",
+                "logLevel": "ERROR",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "比对校验失败"
+            },
+            {
+                "key": "-8702625018921764268",
+                "traceId": "1999683994337120256",
+                "msg": "",
+                "msgType": "text",
+                "content": "Json比对不通过",
+                "logLevel": "ERROR",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "Json比对不通过"
+            },
+            {
+                "key": "3645203290136113703",
+                "traceId": "1999683994337120256",
+                "content": "python调用失败 : 比对校验执行不通过\r\n",
+                "logLevel": "ERROR",
+                "createTime": "2025-12-13 11:33:11",
+                "timestamp": 0,
+                "createTimestamp": 1765596791000,
+                "childLog": [],
+                "title": "python调用失败 : 比对校验执行不通过\r\n"
+            }
+        ]
+    }
+]

@@ -1,0 +1,584 @@
+[
+    {
+        "stepChildren": [],
+        "stepName": "预算额度新增",
+        "treeId": 1998704021494386688,
+        "status": 2,
+        "parentId": -1,
+        "action": "callPythonAi",
+        "stepLog": [
+            {
+                "key": "-4321616712864338478",
+                "traceId": "1998704021494386688",
+                "content": "执行步骤：预算额度新增\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-10 18:39:07",
+                "timestamp": 0,
+                "createTimestamp": 1765363147000,
+                "childLog": [],
+                "title": "执行步骤：预算额度新增\r\n"
+            },
+            {
+                "key": "-8342408085577799930",
+                "traceId": "1998704021494386688",
+                "content": "tdm请求入参：{\"productNo\":\"C0869\",\"expression\":\"@getCookie()@\",\"env\":\"ST\"}\r\n",
+                "logLevel": "INFO",
+                "createTime": "2025-12-10 18:39:07",
+                "timestamp": 0,
+                "createTimestamp": 1765363147000,
+                "childLog": [],
+                "title": "tdm请求入参：{\"productNo\":\"C0869\",\"expression\":\"@getCookie()@\",\"env\":\"ST\"}\r\n"
+            },
+            {
+                "key": "612620869064196788",
+                "traceId": "1998704021494386688",
+                "content": "表达式返回：3a9a16a4-af6a-4195-8f3a-827bb517c468\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-10 18:39:08",
+                "timestamp": 0,
+                "createTimestamp": 1765363148000,
+                "childLog": [],
+                "title": "表达式返回：3a9a16a4-af6a-4195-8f3a-827bb517c468\r\n"
+            },
+            {
+                "key": "-4236134741663314250",
+                "traceId": "1998704021494386688",
+                "content": "组件入参：【${$.HEAD_DATA.X-TRIP-TOKEN}】 = 【3a9a16a4-af6a-4195-8f3a-827bb517c468】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-10 18:39:09",
+                "timestamp": 0,
+                "createTimestamp": 1765363149000,
+                "childLog": [],
+                "title": "组件入参：【${$.HEAD_DATA.X-TRIP-TOKEN}】 = 【3a9a16a4-af6a-4195-8f3a-827bb517c468】\r\n"
+            },{
+                "key": "6540367872409214508",
+                "traceId": "1998704021494386688",
+                "content": "组件入参：【${$.BODY_DATA.planSeqId}】 = 【2048】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-10 18:39:09",
+                "timestamp": 0,
+                "createTimestamp": ***敏感信息系统已自动屏蔽***00,
+                "childLog": [],
+                "title": "组件入参：【${$.BODY_DATA.planSeqId}】 = 【2048】\r\n"
+            },
+            {
+                "key": "-5729991***敏感信息系统已自动屏蔽***5",
+                "traceId": "1998704021494386688",
+                "content": "组件入参：【${$.BODY_DATA.orgSeqId}】 = 【120772】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-10 18:39:09",
+                "timestamp": 0,
+                "createTimestamp": ***敏感信息系统已自动屏蔽***00,
+                "childLog": [],
+                "title": "组件入参：【${$.BODY_DATA.orgSeqId}】 = 【120772】\r\n"
+            },
+            {
+                "key": "-5028664309130788402",
+                "traceId": "1998704021494386688",
+                "content": "组件入参：【${$.BODY_DATA.sumInitialQuota}】 = 【1000】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-10 18:39:09",
+                "timestamp": 0,
+                "createTimestamp": ***敏感信息系统已自动屏蔽***00,
+                "childLog": [],
+                "title": "组件入参：【${$.BODY_DATA.sumInitialQuota}】 = 【1000】\r\n"
+            },
+            {
+                "key": "-879003527215136141",
+                "traceId": "1998704021494386688",
+                "content": "组件入参：【${$.BODY_DATA.initialQuotas[0].periodNumber}】 = 【1】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-10 18:39:09",
+                "timestamp": 0,
+                "createTimestamp": ***敏感信息系统已自动屏蔽***00,
+                "childLog": [],
+                "title": "组件入参：【${$.BODY_DATA.initialQuotas[0].periodNumber}】 = 【1】\r\n"
+            },
+            {
+                "key": "-2503198529984761715",
+                "traceId": "1998704021494386688",
+                "content": "组件入参：【${$.BODY_DATA.initialQuotas[0].initialQuota}】 = 【1000】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-10 18:39:09",
+                "timestamp": 0,
+                "createTimestamp": ***敏感信息系统已自动屏蔽***00,
+                "childLog": [],
+                "title": "组件入参：【${$.BODY_DATA.initialQuotas[0].initialQuota}】 = 【1000】\r\n"
+            },
+            {
+                "key": "-2323931986454485137",
+                "traceId": "1998704021494386688",
+                "content": "组件入参：【${$.BODY_DATA.initialQuotas[0].perDay}】 = 【null】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-10 18:39:09",
+                "timestamp": 0,
+                "createTimestamp": ***敏感信息系统已自动屏蔽***00,
+                "childLog": [],
+                "title": "组件入参：【${$.BODY_DATA.initialQuotas[0].perDay}】 = 【null】\r\n"
+            },
+            {
+                "key": "8947329400402151393",
+                "traceId": "1998704021494386688",
+                "content": "组件入参：【${kwargs}】 = 【[]】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-10 18:39:09",
+                "timestamp": 0,
+                "createTimestamp": 1765363149000,
+                "childLog": [],
+                "title": "组件入参：【${kwargs}】 = 【[]】\r\n"
+            },
+            {
+                "key": "-5376252837529021334",
+                "traceId": "1998704021494386688",
+                "content": "invoke python:{\"componentName\":\"预算额度新增\",\"cloneId\":\"\",\"treeId\":\"0f724cfc-1e2a-4835-8e94-ed29ad8b3766:4924\",\"execDir\":\"C:\\\\.workspace/3000\\\\pyfile\\\\a9e6347c5fc84c5688f59edd012cdb06\\\\8be6645372eb370ca8898aa064329028\",\"projectDir\":\"C:\\\\.workspace/3000\\\\pyfile\\\\a9e6347c5fc84c5688f59edd012cdb06\\\\8be6645372eb370ca8898aa064329028\",\"componentId\":\"si20250519174419239795\",\"productCode\":\"C0869\",\"env\":\"pro\",\"tdmEnv\":\"ST\",\"traceCaseInfo\":\"C0869;655714d9d97d49649241d5a33ea256be-预算额度-预算额度新增;group=915370;recordBatchId=-1;testTaskCode=;pathId=-1;envName=ST;resultId=288064280;taskType=0;src=fastautomator;2131083891\",\"traceId\":\"1998704021494386688\",\"currentUser\":\"80331656\",\"inputJson\":\"{\\\"${$.HEAD_DATA.X-TRIP-TOKEN}\\\":\\\"3a9a16a4-af6a-4195-8f3a-827bb517c468\\\",\\\"${$.BODY_DATA.planSeqId}\\\":2048,\\\"${$.BODY_DATA.orgSeqId}\\\":120772,\\\"${$.BODY_DATA.sumInitialQuota}\\\":1000,\\\"${$.BODY_DATA.initialQuotas[0].periodNumber}\\\":\\\"1\\\",\\\"${$.BODY_DATA.initialQuotas[0].initialQuota}\\\":1000,\\\"${$.BODY_DATA.initialQuotas[0].perDay}\\\":null,\\\"${kwargs}\\\":[]}\",\"gaussQuotationMark\":false}\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-10 18:39:09",
+                "timestamp": 0,
+                "createTimestamp": 1765363149000,
+                "childLog": [],
+                "title": "invoke python:{\"componentName\":\"预算额度新增\",\"cloneId\":\"\",\"treeId\":\"0f724cfc-1e2a-4835-8e94-ed29ad8b3766:4924\",\"execDir\":\"C:\\\\.workspace/3000\\\\pyfile\\\\a9e6"
+            },
+            {
+                "key": "-4543859017570958105",
+                "traceId": "1998704021494386688",
+                "msg": "",
+                "msgType": "text",
+                "content": "当前接口报文协议：https",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-10 18:39:10",
+                "timestamp": 0,
+                "createTimestamp": 1765363150000,
+                "childLog": [],
+                "title": "当前接口报文协议：https"
+            },{
+                "key": "6956730380897284705",
+                "traceId": "1998704021494386688",
+                "msg": "\n{\n    \"env\": \"ST\",\n    \"url\": \"http://itrip-serv-core.paasst.cmbchina.cn\",\n    \"uri\": \"/budget/quota/add\",\n    \"protocol\": \"https\",\n    \"method\": \"post\",\n    \"headers\": {\n        \"X-TRIP-TOKEN\": \"3a9a16a4-af6a-4195-8f3a-827bb517c468\",\n        \"Trace-Case\": \"si297d4e4deac1449391db57c6e701e9fa%3BC0869%3B655714d9d97d49649241d5a33ea256be-%E9%A2%84%E7%AE%97%E9%A2%9D%E5%BA%A6-%E9%A2%84%E7%AE%97%E9%A2%9D%E5%BA%A6%E6%96%B0%E5%A2%9E%3Bgroup%3D915370%3BrecordBatchId%3D-1%3BtestTaskCode%3D%3BpathId%3D-1%3BenvName%3DST%3BresultId%3D288064280%3BtaskType%3D0%3Bsrc%3Dfastautomator%3B2131083891\",\n        \"Content-Type\": \"application/json\"\n    },\n    \"settings\": {},\n    \"type\": \"json\",\n    \"Trace-Case\": \"si297d4e4deac1449391db57c6e701e9fa%3BC0869%3B655714d9d97d49649241d5a33ea256be-%E9%A2%84%E7%AE%97%E9%A2%9D%E5%BA%A6-%E9%A2%84%E7%AE%97%E9%A2%9D%E5%BA%A6%E6%96%B0%E5%A2%9E%3Bgroup%3D915370%3BrecordBatchId%3D-1%3BtestTaskCode%3D%3BpathId%3D-1%3BenvName%3DST%3BresultId%3D288064280%3BtaskType%3D0%3Bsrc%3Dfastautomator%3B2131083891\",\n    \"trace_id_flag\": true,\n    \"pluto_env\": \"pro\",\n    \"exec_dir\": \"C:\\\\.workspace/3000\\\\pyfile\\\\a9e6347c5fc84c5688f59edd012cdb06\\\\8be6645372eb370ca8898aa064329028\",\n    \"performance_flag\": 0\n}",
+                "msgType": "json",
+                "content": "当前发送系统信息：",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-10 18:39:10",
+                "timestamp": 0,
+                "createTimestamp": 1765363150000,
+                "childLog": [],
+                "title": "当前发送系统信息："
+            },
+            {
+                "key": "8727686991662621418",
+                "traceId": "1998704021494386688",
+                "msg": "\n{\n    \"planSeqId\": 2048,\n    \"orgSeqId\": 120772,\n    \"sumInitialQuota\": 1000,\n    \"initialQuotas\": [\n        {\n            \"periodNumber\": \"1\",\n            \"initialQuota\": 1000,\n            \"perDay\": null\n        }\n    ]\n}",
+                "msgType": "json",
+                "content": "发送组包后报文",
+                "logLevel": "INFO",
+                "createTime": "2025-12-10 18:39:10",
+                "timestamp": 0,
+                "createTimestamp": 1765363150000,
+                "childLog": [],
+                "title": "发送组包后报文"
+            },
+            {
+                "key": "-7463302923812197221",
+                "traceId": "1998704021494386688",
+                "msg": "",
+                "msgType": "text",
+                "content": "北斗链路追踪ID【f33adb89b9ee4a67abe3b8033ac6460c】：http://bd.paasst.cmbchina.cn/#/module%3Dtrack&value%3Df33adb89b9ee4a67abe3b8033ac6460c",
+                "logLevel": "INFO",
+                "createTime": "2025-12-10 18:39:10",
+                "timestamp": 0,
+                "createTimestamp": 1765363150000,
+                "childLog": [],
+                "title": "北斗链路追踪ID【f33adb89b9ee4a67abe3b8033ac6460c】：http://bd.paasst.cmbchina.cn/#/module%3Dtrack&value%3Df33adb89b9ee4a67abe3b8033ac6460c"
+            },
+            {
+                "key": "-8658843429952594296",
+                "traceId": "1998704021494386688",
+                "msg": "\n{\n    \"code\": \"XFEB000\",\n    \"message\": \"新增的预算组织及科目已存在预算额度！\"\n}",
+                "msgType": "json",
+                "content": "响应报文",
+                "logLevel": "INFO",
+                "createTime": "2025-12-10 18:39:10",
+                "timestamp": 0,
+                "createTimestamp": 1765363150000,
+                "childLog": [],
+                "title": "响应报文"
+            },
+            {
+                "key": "-5180034280862846914",
+                "traceId": "1998704021494386688",
+                "msg": "",
+                "msgType": "text",
+                "content": "b'{\"code\":\"XFEB000\",\"message\":\"\\xe6\\x96\\xb0\\xe5\\xa2\\x9e\\xe7\\x9a\\x84\\xe9\\xa2\\x84\\xe7\\xae\\x97\\xe7\\xbb\\x84\\xe7\\xbb\\x87\\xe5\\x8f\\x8a\\xe7\\xa7\\x91\\xe7\\x9b\\xae\\xe5\\xb7\\xb2\\xe5\\xad\\x98\\xe5\\x9c\\xa8\\xe9\\xa2\\x84\\xe7\\xae\\x97\\xe9\\xa2\\x9d\\xe5\\xba\\xa6\\xef\\xbc\\x81\"}'",
+                "logLevel": "INFO",
+                "createTime": "2025-12-10 18:39:10",
+                "timestamp": 0,
+                "createTimestamp": 1765363150000,
+                "childLog": [],
+                "title": "b'{\"code\":\"XFEB000\",\"message\":\"\\xe6\\x96\\xb0\\xe5\\xa2\\x9e\\xe7\\x9a\\x84\\xe9\\xa2\\x84\\xe7\\xae\\x97\\xe7\\xbb\\x84\\xe7\\xbb\\x87\\xe5\\x8f\\x8a\\xe7\\xa7\\x91\\xe7\\x9b\\xa"
+            },{
+                "key": "-527608686119355070",
+                "traceId": "1998704021494386688",
+                "content": "【预算额度新增】执行结果：【{\"request_data\":{\"planSeqId\":2048,\"orgSeqId\":120772,\"sumInitialQuota\":1000,\"initialQuotas\":[{\"periodNumber\":\"1\",\"initialQuota\":1000,\"perDay\":null}]},\"response_data\":{\"code\":\"XFEB000\",\"message\":\"新增的预算组织及科目已存在预算额度！\"},\"res_info\":{\"url\":\"http://itrip-serv-core.paasst.cmbchina.cn\",\"uri\":\"/budget/quota/add\",\"ip\":\"\",\"port\":0,\"protocol\":\"https\",\"status_code\":400,\"headers\":{\"Bee-Subapi-Restful\":\"/budget/quota/add\",\"Content-Type\":\"application/json\",\"Date\":\"Wed, 10 Dec 2025 10:39:14 GMT\",\"X-B3-Flags\":\"1\",\"X-B3-Parentspanid\":\"0\",\"X-B3-Sampled\":\"N\",\"X-B3-Spanid\":\"23a9dee39c435976\",\"X-B3-Timestamp\":\"1765363150615\",\"X-B3-Traceid\":\"f33adb89b9ee4a67abe3b8033ac6460c\",\"X-Protected-By\":\"RASP\",\"X-Request-Id\":\"13003adcbf3d4dc38aa751b3006bcc57\",\"Transfer-Encoding\":\"chunked\"},\"cookies\":{},\"content\":{\"code\":\"XFEB000\",\"message\":\"新增的预算组织及科目已存在预算额度！\"},\"elapsed\":0.158535,\"request_headers\":{\"User-Agent\":\"python-requests/2.30.0\",\"Accept-Encoding\":\"gzip, deflate\",\"Accept\":\"*/*\",\"Connection\":\"keep-alive\",\"X-TRIP-TOKEN\":\"3a9a16a4-af6a-4195-8f3a-827bb517c468\",\"Trace-Case\":\"si297d4e4deac1449391db57c6e701e9fa%3BC0869%3B655714d9d97d49649241d5a33ea256be-%E9%A2%84%E7%AE%97%E9%A2%9D%E5%BA%A6-%E9%A2%84%E7%AE%97%E9%A2%9D%E5%BA%A6%E6%96%B0%E5%A2%9E%3Bgroup%3D915370%3BrecordBatchId%3D-1%3BtestTaskCode%3D%3BpathId%3D-1%3BenvName%3DST%3BresultId%3D288064280%3BtaskType%3D0%3Bsrc%3Dfastautomator%3B2131083891\",\"Content-Type\":\"application/json\",\"X-B3-TraceId\":\"f33adb89b9ee4a67abe3b8033ac6460c\",\"X-B3-SpanId\":\"23a9dee39c435976\",\"X-B3-ParentSpanId\":\"0\",\"X-B3-Timestamp\":\"1765363150615\",\"X-B3-Sampled\":\"N\",\"X-B3-Flags\":\"1\",\"Content-Length\":\"144\"}}}】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-10 18:39:10",
+                "timestamp": 0,
+                "createTimestamp": 1765363150000,
+                "childLog": [],
+                "title": "【预算额度新增】执行结果：【{\"request_data\":{\"planSeqId\":2048,\"orgSeqId\":120772,\"sumInitialQuota\":1000,\"initialQuotas\":[{\"periodNumber\":\"1\",\"initialQuota\":1000,\"per"
+            },
+            {
+                "key": "5381729425526374150",
+                "traceId": "1998704021494386688",
+                "content": "解析python返回变量【${req_data}】=【{\"planSeqId\":2048,\"orgSeqId\":120772,\"sumInitialQuota\":1000,\"initialQuotas\":[{\"periodNumber\":\"1\",\"initialQuota\":1000,\"perDay\":null}]}】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-10 18:39:10",
+                "timestamp": 0,
+                "createTimestamp": 1765363150000,
+                "childLog": [],
+                "title": "解析python返回变量【${req_data}】=【{\"planSeqId\":2048,\"orgSeqId\":120772,\"sumInitialQuota\":1000,\"initialQuotas\":[{\"periodNumber\":\"1\",\"initialQuota\":1000,\"perDay"
+            },
+            {
+                "key": "-5600445***敏感信息系统已自动屏蔽***7",
+                "traceId": "1998704021494386688",
+                "content": "解析python返回变量【${res_data}】=【{\"code\":\"XFEB000\",\"message\":\"新增的预算组织及科目已存在预算额度！\"}】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-10 18:39:10",
+                "timestamp": 0,
+                "createTimestamp": ***敏感信息系统已自动屏蔽***00,
+                "childLog": [],
+                "title": "解析python返回变量【${res_data}】=【{\"code\":\"XFEB000\",\"message\":\"新增的预算组织及科目已存在预算额度！\"}】\r\n"
+            },
+            {
+                "key": "-4***敏感信息系统已自动屏蔽***6273550",
+                "traceId": "1998704021494386688",
+                "content": "解析python返回变量【${res_info}】=【{\"url\":\"http://itrip-serv-core.paasst.cmbchina.cn\",\"uri\":\"/budget/quota/add\",\"ip\":\"\",\"port\":0,\"protocol\":\"https\",\"status_code\":400,\"headers\":{\"Bee-Subapi-Restful\":\"/budget/quota/add\",\"Content-Type\":\"application/json\",\"Date\":\"Wed, 10 Dec 2025 10:39:14 GMT\",\"X-B3-Flags\":\"1\",\"X-B3-Parentspanid\":\"0\",\"X-B3-Sampled\":\"N\",\"X-B3-Spanid\":\"23a9dee39c435976\",\"X-B3-Timestamp\":\"***敏感信息系统已自动屏蔽***15\",\"X-B3-Traceid\":\"f33adb89b9ee4a67abe3b8033ac6460c\",\"X-Protected-By\":\"RASP\",\"X-Request-Id\":\"13003adcbf3d4dc38aa751b3006bcc57\",\"Transfer-Encoding\":\"chunked\"},\"cookies\":{},\"content\":{\"code\":\"XFEB000\",\"message\":\"新增的预算组织及科目已存在预算额度！\"},\"elapsed\":0.158535,\"request_headers\":{\"User-Agent\":\"python-requests/2.30.0\",\"Accept-Encoding\":\"gzip, deflate\",\"Accept\":\"*/*\",\"Connection\":\"keep-alive\",\"X-TRIP-TOKEN\":\"3a9a16a4-af6a-4195-8f3a-827bb517c468\",\"Trace-Case\":\"si297d4e4deac1449391db57c6e701e9fa%3BC0869%3B655714d9d97d49649241d5a33ea256be-%E9%A2%84%E7%AE%97%E9%A2%9D%E5%BA%A6-%E9%A2%84%E7%AE%97%E9%A2%9D%E5%BA%A6%E6%96%B0%E5%A2%9E%3Bgroup%3D915370%3BrecordBatchId%3D-1%3BtestTaskCode%3D%3BpathId%3D-1%3BenvName%3DST%3BresultId%3D288064280%3BtaskType%3D0%3Bsrc%3Dfastautomator%3B2131083891\",\"Content-Type\":\"application/json\",\"X-B3-TraceId\":\"f33adb89b9ee4a67abe3b8033ac6460c\",\"X-B3-SpanId\":\"23a9dee39c435976\",\"X-B3-ParentSpanId\":\"0\",\"X-B3-Timestamp\":\"***敏感信息系统已自动屏蔽***15\",\"X-B3-Sampled\":\"N\",\"X-B3-Flags\":\"1\",\"Content-Length\":\"144\"}}】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-10 18:39:10",
+                "timestamp": 0,
+                "createTimestamp": ***敏感信息系统已自动屏蔽***00,
+                "childLog": [],
+                "title": "解析python返回变量【${res_info}】=【{\"url\":\"http://itrip-serv-core.paasst.cmbchina.cn\",\"uri\":\"/budget/quota/add\",\"ip\":\"\",\"port\":0,\"protocol\":\"https\",\"status_co"
+            }
+        ]
+    },
+    {
+        "stepChildren": [
+            {
+                "stepChildren": [],
+                "stepName": "json指定字段校验",
+                "treeId": 1998704037285941248,
+                "status": 3,
+                "parentId": 1998704036174450688,
+                "action": "callPythonAi",
+                "stepLog": [
+                    {
+                        "key": "-4453110381997470668",
+                        "traceId": "1998704037285941248",
+                        "content": "执行步骤：json指定字段校验\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-10 18:39:11",
+                        "timestamp": 0,
+                        "createTimestamp": 1765363151000,
+                        "childLog": [],
+                        "title": "执行步骤：json指定字段校验\r\n"
+                    },
+                    {
+                        "key": "2418564893718892507",
+                        "traceId": "1998704037285941248",
+                        "content": "组件入参：【verify_data】 = 【{\"code\":\"XFEB000\",\"message\":\"新增的预算组织及科目已存在预算额度！\"}】\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-10 18:39:12",
+                        "timestamp": 0,
+                        "createTimestamp": 1765363152000,
+                        "childLog": [],
+                        "title": "组件入参：【verify_data】 = 【{\"code\":\"XFEB000\",\"message\":\"新增的预算组织及科目已存在预算额度！\"}】\r\n"
+                    },
+                    {
+                        "key": "6879452949368811013",
+                        "traceId": "1998704037285941248",
+                        "content": "组件入参：【expected_dict】 = 【{\"success\":true}】\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-10 18:39:12",
+                        "timestamp": 0,
+                        "createTimestamp": 1765363152000,
+                        "childLog": [],
+                        "title": "组件入参：【expected_dict】 = 【{\"success\":true}】\r\n"
+                    },
+                    {
+                        "key": "2473586239817070013",
+                        "traceId": "1998704037285941248",
+                        "content": "组件入参：【is_continue】 = 【false】\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-10 18:39:12",
+                        "timestamp": 0,
+                        "createTimestamp": 1765363152000,
+                        "childLog": [],
+                        "title": "组件入参：【is_continue】 = 【false】\r\n"
+                    },{
+                        "key": "2895535707642264810",
+                        "traceId": "1998704037285941248",
+                        "content": "invoke python:{\"componentName\":\"json指定字段校验\",\"cloneId\":\"\",\"treeId\":\"fd531cdb-2ca3-47f0-92a3-82edce0b75f6:4925:4926\",\"execDir\":\"C:\\\\.workspace/3000\\\\pyfile\\\\a9e6347c5fc84c5688f59edd012cdb06\\\\8be6645372eb370ca8898aa064329028\",\"projectDir\":\"C:\\\\.workspace/3000\\\\pyfile\\\\a9e6347c5fc84c5688f59edd012cdb06\\\\8be6645372eb370ca8898aa064329028\",\"componentId\":\"bi3013\",\"productCode\":\"C0869\",\"env\":\"pro\",\"tdmEnv\":\"ST\",\"traceCaseInfo\":\"C0869;655714d9d97d49649241d5a33ea256be-预算额度-预算额度新增;group=915370;recordBatchId=-1;testTaskCode=;pathId=-1;envName=ST;resultId=288064280;taskType=0;src=fastautomator;2131083891\",\"traceId\":\"1998704037285941248\",\"currentUser\":\"80331656\",\"inputJson\":\"{\\\"verify_data\\\":{\\\"code\\\":\\\"XFEB000\\\",\\\"message\\\":\\\"新增的预算组织及科目已存在预算额度！\\\"},\\\"expected_dict\\\":{\\\"success\\\":true},\\\"is_continue\\\":false}\",\"gaussQuotationMark\":false}\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-10 18:39:12",
+                        "timestamp": 0,
+                        "createTimestamp": 1765363152000,
+                        "childLog": [],
+                        "title": "invoke python:{\"componentName\":\"json指定字段校验\",\"cloneId\":\"\",\"treeId\":\"fd531cdb-2ca3-47f0-92a3-82edce0b75f6:4925:4926\",\"execDir\":\"C:\\\\.workspace/3000\\\\pyf"
+                    },
+                    {
+                        "key": "-824077185332552821",
+                        "traceId": "1998704037285941248",
+                        "msg": "",
+                        "msgType": "text",
+                        "content": "json指定字段校验结果不通过",
+                        "logLevel": "ERROR",
+                        "createTime": "2025-12-10 18:39:12",
+                        "timestamp": 0,
+                        "createTimestamp": 1765363152000,
+                        "childLog": [],
+                        "title": "json指定字段校验结果不通过"
+                    },
+                    {
+                        "key": "-5557499556434739771",
+                        "traceId": "1998704037285941248",
+                        "msg": "[{\"key\": \"0\", \"keyName\": \"success\", \"realVal\": \"NOT-EXIST\", \"exceptVal\": true, \"result\": \"fail\"}]",
+                        "msgType": "verifyTable",
+                        "content": "比对校验失败",
+                        "logLevel": "ERROR",
+                        "createTime": "2025-12-10 18:39:12",
+                        "timestamp": 0,
+                        "createTimestamp": 1765363152000,
+                        "childLog": [],
+                        "title": "比对校验失败"
+                    },{
+                        "key": "4980458578609812112",
+                        "traceId": "1998704037285941248",
+                        "content": "python调用失败 : 比对校验执行不通过\r\n",
+                        "logLevel": "ERROR",
+                        "createTime": "2025-12-10 18:39:12",
+                        "timestamp": 0,
+                        "createTimestamp": 1765363152000,
+                        "childLog": [],
+                        "title": "python调用失败 : 比对校验执行不通过\r\n"
+                    }
+                ]
+            }
+        ],
+        "stepName": "(编排)校验接口成功返回码",
+        "treeId": 1998704036174450688,
+        "status": 3,
+        "parentId": -1,
+        "action": "校验接口成功返回码",
+        "stepLog": [
+            {
+                "key": "-7057690492336926175",
+                "traceId": "1998704036174450688",
+                "content": "执行步骤：校验接口成功返回码\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-10 18:39:11",
+                "timestamp": 0,
+                "createTimestamp": 1765363151000,
+                "childLog": [],
+                "title": "执行步骤：校验接口成功返回码\r\n"
+            },
+            {
+                "key": "-6531695589221014033",
+                "traceId": "1998704036174450688",
+                "content": "解析组件入参变量【${响应报文}】=【{\"code\":\"XFEB000\",\"message\":\"新增的预算组织及科目已存在预算额度！\"}】\r\n",
+                "logLevel": "DEBUG",
+                "createTime": "2025-12-10 18:39:11",
+                "timestamp": 0,
+                "createTimestamp": 1765363151000,
+                "childLog": [],
+                "title": "解析组件入参变量【${响应报文}】=【{\"code\":\"XFEB000\",\"message\":\"新增的预算组织及科目已存在预算额度！\"}】\r\n"
+            },
+            {
+                "key": "1998704037285941248",
+                "traceId": "1998704037285941248",
+                "content": "执行步骤：json指定字段校验",
+                "logLevel": "ERROR",
+                "createTime": "2025-12-10 18:39:11",
+                "createTimestamp": 1765363151271,
+                "childLog": [],
+                "title": "执行步骤：json指定字段校验"
+            }
+        ]
+    },{
+        "stepChildren": [
+            {
+                "stepChildren": [],
+                "stepName": "返回码校验",
+                "treeId": 1998704044038770688,
+                "status": 3,
+                "parentId": -3,
+                "action": "callPythonAi",
+                "stepLog": [
+                    {
+                        "key": "487753***敏感信息系统已自动屏蔽***40",
+                        "traceId": "1998704044038770688",
+                        "content": "执行步骤：返回码校验\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-10 18:39:12",
+                        "timestamp": 0,
+                        "createTimestamp": ***敏感信息系统已自动屏蔽***00,
+                        "childLog": [],
+                        "title": "执行步骤：返回码校验\r\n"
+                    },
+                    {
+                        "key": "-4270812325110415937",
+                        "traceId": "1998704044038770688",
+                        "content": "组件入参：【verify_json】 = 【{\"code\":\"XFEB000\",\"message\":\"新增的预算组织及科目已存在预算额度！\"}】\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-10 18:39:14",
+                        "timestamp": 0,
+                        "createTimestamp": ***敏感信息系统已自动屏蔽***00,
+                        "childLog": [],
+                        "title": "组件入参：【verify_json】 = 【{\"code\":\"XFEB000\",\"message\":\"新增的预算组织及科目已存在预算额度！\"}】\r\n"
+                    },
+                    {
+                        "key": "-51***敏感信息系统已自动屏蔽***323006",
+                        "traceId": "1998704044038770688",
+                        "content": "组件入参：【field】 = 【success】\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-10 18:39:14",
+                        "timestamp": 0,
+                        "createTimestamp": ***敏感信息系统已自动屏蔽***00,
+                        "childLog": [],
+                        "title": "组件入参：【field】 = 【success】\r\n"
+                    },
+                    {
+                        "key": "634401611354928114",
+                        "traceId": "1998704044038770688",
+                        "content": "组件入参：【condition】 = 【equal】\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-10 18:39:14",
+                        "timestamp": 0,
+                        "createTimestamp": ***敏感信息系统已自动屏蔽***00,
+                        "childLog": [],
+                        "title": "组件入参：【condition】 = 【equal】\r\n"
+                    },
+                    {
+                        "key": "-7820351079924862747",
+                        "traceId": "1998704044038770688",
+                        "content": "组件入参：【expected_type】 = 【bool】\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-10 18:39:14",
+                        "timestamp": 0,
+                        "createTimestamp": ***敏感信息系统已自动屏蔽***00,
+                "childLog": [],
+                        "title": "组件入参：【expected_type】 = 【bool】\r\n"
+                    },
+                    {
+                        "key": "-1739919676552134419",
+                        "traceId": "1998704044038770688",
+                        "content": "组件入参：【expected_value】 = 【true】\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-10 18:39:14",
+                        "timestamp": 0,
+                        "createTimestamp": 1765363154000,
+                        "childLog": [],
+                        "title": "组件入参：【expected_value】 = 【true】\r\n"
+                    },
+                    {
+                        "key": "7499952545631927162",
+                        "traceId": "1998704044038770688",
+                        "content": "组件入参：【trim】 = 【false】\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-10 18:39:14",
+                        "timestamp": 0,
+                        "createTimestamp": 1765363154000,
+                        "childLog": [],
+                        "title": "组件入参：【trim】 = 【false】\r\n"
+                    },
+                    {
+                        "key": "4492779516404256112",
+                        "traceId": "1998704044038770688",
+                        "content": "invoke python:{\"componentName\":\"返回码校验\",\"cloneId\":\"\",\"treeId\":\"3374c94c-0705-490e-a3dd-ef25f6454550:4927\",\"execDir\":\"C:\\\\.workspace/3000\\\\pyfile\\\\a9e6347c5fc84c5688f59edd012cdb06\\\\8be6645372eb370ca8898aa064329028\",\"projectDir\":\"C:\\\\.workspace/3000\\\\pyfile\\\\a9e6347c5fc84c5688f59edd012cdb06\\\\8be6645372eb370ca8898aa064329028\",\"componentId\":\"gl1002\",\"productCode\":\"C0869\",\"env\":\"pro\",\"tdmEnv\":\"ST\",\"traceCaseInfo\":\"C0869;655714d9d97d49649241d5a33ea256be-预算额度-预算额度新增;group=915370;recordBatchId=-1;testTaskCode=;pathId=-1;envName=ST;resultId=288064280;taskType=0;src=fastautomator;2131083891\",\"traceId\":\"1998704044038770688\",\"currentUser\":\"80331656\",\"inputJson\":\"{\\\"verify_json\\\":{\\\"code\\\":\\\"XFEB000\\\",\\\"message\\\":\\\"新增的预算组织及科目已存在预算额度！\\\"},\\\"field\\\":\\\"success\\\",\\\"condition\\\":\\\"equal\\\",\\\"expected_type\\\":\\\"bool\\\",\\\"expected_value\\\":\\\"true\\\",\\\"trim\\\":false}\",\"gaussQuotationMark\":false}\r\n",
+                        "logLevel": "DEBUG",
+                        "createTime": "2025-12-10 18:39:14",
+                        "timestamp": 0,
+                        "createTimestamp": 1765363154000,
+                        "childLog": [],
+                        "title": "invoke python:{\"componentName\":\"返回码校验\",\"cloneId\":\"\",\"treeId\":\"3374c94c-0705-490e-a3dd-ef25f6454550:4927\",\"execDir\":\"C:\\\\.workspace/3000\\\\pyfile\\\\a9e63"
+                    },
+                    {
+                        "key": "7685815547155739014",
+                        "traceId": "1998704044038770688",
+                        "msg": "",
+                        "msgType": "text",
+                        "content": "返回码校验执行错误",
+                        "logLevel": "ERROR",
+                        "createTime": "2025-12-10 18:39:14",
+                        "timestamp": 0,
+                        "createTimestamp": 1765363154000,
+                        "childLog": [],
+                        "title": "返回码校验执行错误"
+                    },
+                    {
+                        "key": "-1861054947498561118",
+                        "traceId": "1998704044038770688",
+                        "msg": "",
+                        "msgType": "text",
+                        "content": "比对结果不通过：预期值为True，类型为<class 'bool'>， 实际值为not_exist, 类型为<class 'str'>",
+                        "logLevel": "ERROR",
+                        "createTime": "2025-12-10 18:39:14",
+                        "timestamp": 0,
+                        "createTimestamp": 1765363154000,
+                        "childLog": [],
+                        "title": "比对结果不通过：预期值为True，类型为<class 'bool'>， 实际值为not_exist, 类型为<class 'str'>"
+                    },
+                    {
+                        "key": "8628435411789954908",
+                        "traceId": "1998704044038770688",
+                        "msg": "",
+                        "msgType": "text",
+                        "content": "Json断言失败！",
+                        "logLevel": "ERROR",
+                        "createTime": "2025-12-10 18:39:14",
+                        "timestamp": 0,
+                        "createTimestamp": 1765363154000,
+                        "childLog": [],
+                        "title": "Json断言失败！"
+                    },{
+                        "key": "-8299454859602756629",
+                        "traceId": "1998704044038770688",
+                        "msg": "",
+                        "msgType": "text",
+                        "content": "Traceback (most recent call last):\n  File \"C:\\Users\\it007004\\Downloads\\FastAutomatorDesktop\\FastAutomatorDesktop\\3000\\service.py\", line 2518, in run_python_process\n    val_dict = func(real_params)\n  File \"C:\\Python37\\lib\\site-packages\\cmbautolog\\logger_decorator.py\", line 182, in wrapper\n    result = func(*arg, **kw)\n  File \"C:\\Users\\it007004\\Downloads\\FastAutomatorDesktop\\FastAutomatorDesktop\\3000\\service.py\", line 1897, in gl1002\n    raise e\n  File \"C:\\Users\\it007004\\Downloads\\FastAutomatorDesktop\\FastAutomatorDesktop\\3000\\service.py\", line 1892, in gl1002\n    self.product_code, self.env, self.tdmEnv\n  File \"C:\\Python37\\lib\\site-packages\\cmbautocmbt\\pluto_builtin.py\", line 897, in builtin_json_assert\n    AssertFun.expected_actual_compare(actual_value, expected_value, condition, expected_type, trim)\n  File \"C:\\Python37\\lib\\site-packages\\cmbautocmbt\\assert_fun.py\", line 56, in expected_actual_compare\n    actual_type)\nAssertionError: 比对结果不通过：预期值为True，类型为<class 'bool'>， 实际值为not_exist, 类型为<class 'str'>\n",
+                        "logLevel": "ERROR",
+                        "createTime": "2025-12-10 18:39:14",
+                        "timestamp": 0,
+                        "createTimestamp": 1765363154000,
+                        "childLog": [],
+                        "title": "Traceback (most recent call last):\n  File \"C:\\Users\\it007004\\Downloads\\FastAutomatorDesktop\\FastAutomatorDesktop\\3000\\service.py\", line 2518, in run_p"
+                    },
+                    {
+                        "key": "-6872339249948491292",
+                        "traceId": "1998704044038770688",
+                        "content": "python调用失败 : 比对结果不通过：预期值为True，类型为<class 'bool'>， 实际值为not_exist, 类型为<class 'str'>\r\n",
+                        "logLevel": "ERROR",
+                        "createTime": "2025-12-10 18:39:14",
+                        "timestamp": 0,
+                        "createTimestamp": 1765363154000,
+                        "childLog": [],
+                        "title": "python调用失败 : 比对结果不通过：预期值为True，类型为<class 'bool'>， 实际值为not_exist, 类型为<class 'str'>\r\n"
+                    }
+                ]
+            }
+        ],
+        "stepName": "Teardown",
+        "treeId": -3,
+        "status": 2,
+        "stepLog": [
+            {
+                "key": "1998704044038770688",
+                "traceId": "1998704044038770688",
+                "content": "执行步骤：返回码校验",
+                "logLevel": "ERROR",
+                "createTime": "2025-12-10 18:39:12",
+                "createTimestamp": 1765363152881,
+                "childLog": [],
+                "title": "执行步骤：返回码校验"
+            }
+        ]
+    }
+]
