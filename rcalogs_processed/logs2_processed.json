@@ -1,0 +1,196 @@
+[
+  {
+    "stepName": "排休额度变更待办发送",
+    "treeId": 0,
+    "status": 2,
+    "action": "callPythonAi",
+    "stepLog": [
+      {
+        "traceId": 0,
+        "content": "执行步骤：排休额度变更待办发送\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2026-01-06 09:40:39"
+      },
+      {
+        "traceId": 0,
+        "content": "组件入参：【${$.BODY_DATA.arrgRestDlyPeriod}】 = 【】\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2026-01-06 09:40:39"
+      },
+      {
+        "traceId": 0,
+        "content": "组件入参：【${$.BODY_DATA.legalHldRestBal}】 = 【】\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2026-01-06 09:40:39"
+      },
+      {
+        "traceId": 0,
+        "content": "组件入参：【${$.BODY_DATA.prjCode}】 = 【】\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2026-01-06 09:40:39"
+      },
+      {
+        "traceId": 0,
+        "content": "组件入参：【${$.BODY_DATA.recalculateShiftOcpRestFlag}】 = 【】\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2026-01-06 09:40:39"
+      },
+      {
+        "traceId": 0,
+        "content": "组件入参：【${$.BODY_DATA.stfSeq}】 = 【0000000001】\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2026-01-06 09:40:39"
+      },
+      {
+        "traceId": 0,
+        "content": "组件入参：【${kwargs}】 = 【[]】\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2026-01-06 09:40:40"
+      },
+      {
+        "traceId": 0,
+        "content": "invoke python:{\"componentName\":\"排休额度变更待办发送\",\"cloneId\":\"\",\"treeId\":\"419f5a33-e4a2-4a41-abe1-15ca9dab2643:14265\",\"execDir\":\"D:\\\\.workspace/3002\\\\pyfile\\\\31c74638665d4d4c98441de6238256ca\\\\9a02b6812e04d705648a1b4af57dfe16\",\"projectDir\":\"D:\\\\.workspace/3002\\\\pyfile\\\\31c74638665d4d4c98441de6238256ca\\\\9a02b6812e04d705648a1b4af57dfe16\",\"componentId\":\"si20241008095316086677\",\"productCode\":\"C0862\",\"env\":\"pro\",\"tdmEnv\":\"UAT\",\"traceCaseInfo\":\"C0862;69f2d96ebd3d46c59dabad3bddd26524-排休额度变更待办发送;group=174085;recordBatchId=-1;testTaskCode=;pathId=-1;envName=UAT;resultId=28335687;taskType=1;src=fastautomator;1702857\",\"traceId\":\"2008352984386572288\",\"currentUser\":\"IT011160\",\"inputJson\":\"{\\\"${$.BODY_DATA.arrgRestDlyPeriod}\\\":\\\"\\\",\\\"${$.BODY_DATA.arrgRestFixedBal}\\\":\\\"\\\",\\\"${$.BODY_DATA.atdPeriod}\\\":\\\"\\\",\\\"${$.BODY_DATA.hisPeriodFlag}\\\":\\\"\\\",\\\"${$.BODY_DATA.legalHldRestBal}\\\":\\\"\\\",\\\"${$.BODY_DATA.prjCode}\\\":\\\"\\\",\\\"${$.BODY_DATA.recalculateShiftOcpRestFlag}\\\":\\\"\\\",\\\"${$.BODY_DATA.stfSeq}\\\":\\\"0000000001\\\",\\\"${kwargs}\\\":[]}\",\"gaussQuotationMark\":false}\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2026-01-06 09:40:40"
+      },
+      {
+        "traceId": 0,
+        "content": "TDM请求：",
+        "logLevel": "DEBUG",
+        "createTime": "2026-01-06 09:40:49"
+      },
+      {
+        "traceId": 0,
+        "content": "当前接口报文协议：http",
+        "logLevel": "DEBUG",
+        "createTime": "2026-01-06 09:40:50"
+      },
+      {
+        "traceId": 0,
+        "content": "当前发送系统信息：",
+        "logLevel": "DEBUG",
+        "createTime": "2026-01-06 09:40:50"
+      },
+      {
+        "traceId": 0,
+        "content": "北斗链路追踪ID【81125eedcccc45e3b80e80e5156233c3】：http://bd.paasst.cmbchina.cn/#/module%3Dtrack&value%3D81125eedcccc45e3b80e80e5156233c3",
+        "logLevel": "INFO",
+        "createTime": "2026-01-06 09:40:50"
+      },
+      {
+        "traceId": 0,
+        "content": "发送组包后报文",
+        "logLevel": "INFO",
+        "createTime": "2026-01-06 09:40:50"
+      },
+      {
+        "traceId": 0,
+        "content": "b'{\"timestamp\":\"2026-01-06T01:41:02.279+00:00\",\"status\":404,\"error\":\"Not Found\",\"path\":\"/rest/bal-send\"}'",
+        "logLevel": "INFO",
+        "createTime": "2026-01-06 09:40:50"
+      },
+      {
+        "traceId": 0,
+        "content": "响应报文",
+        "logLevel": "INFO",
+        "createTime": "2026-01-06 09:40:50"
+      },
+      {
+        "traceId": 0,
+        "content": "【排休额度变更待办发送】执行结果：【{\"request_data\":{\"arrgRestDlyPeriod\":\"\",\"arrgRestFixedBal\":\"\",\"atdPeriod\":\"\",\"hisPeriodFlag\":\"\",\"legalHldRestBal\":\"\",\"prjCode\":\"\",\"recalculateShiftOcpRestFlag\":\"\",\"seqNbr\":\"\",\"stfSeq\":\"0000000001\"},\"response_data\":{\"timestamp\":\"2026-01-06T01:41:02.279+00:00\",\"status\":404,\"error\":\"Not Found\",\"path\":\"/rest/bal-send\"},\"res_info\":{\"url\":\"https://xft2-service-ars-cs.paasuat.cmbchina.cn\",\"uri\":\"/rest/bal-send\",\"ip\":\"\",\"port\":0,\"protocol\":\"http\",\"status_code\":404,\"headers\":{\"Bee-Subapi-Restful\":\"/*/*\",\"Connection\":\"keep-alive\",\"Trace-Case\":\"si163e6c2d5fed48279fe0f81282a66e2e%3BC0862%3B69f2d96ebd3d46c59dabad3bddd26524-%E6%8E%92%E4%BC%91%E9%A2%9D%E5%BA%A6%E5%8F%98%E6%9B%B4%E5%BE%85%E5%8A%9E%E5%8F%91%E9%80%81%3Bgroup%3D174085%3BrecordBatchId%3D-1%3BtestTaskCode%3D%3BpathId%3D-1%3BenvName%3DUAT%3BresultId%3D28335687%3BtaskType%3D1%3Bsrc%3Dfastautomator%3B1702857\",\"Content-Type\":\"application/json\",\"X-B3-BusinessId\":\"LT8601PlutoPyBackend\",\"X-B3-TraceId\":\"81125eedcccc45e3b80e80e5156233c3\",\"X-B3-SpanId\":\"0c1aeaf9f2ca3ab8\",\"X-B3-ParentSpanId\":\"0\",\"X-B3-Timestamp\":\"1767663650308\",\"X-B3-Sampled\":\"N\",\"X-B3-Flags\":\"1\",\"Debug-XFT-UserInfo\":\"{\\\"platformUserId\\\":\\\"10004084\\\",\\\"platformUserName\\\":\\\"5p2o5Zel6Iy1\\\",\\\"enterpriseId\\\":\\\"XFV40678\\\",\\\"enterpriseName\\\":\\\"6ICD5Yuk6Ieq5Yqo5YyW5rWL6K+V5LyB5LiaMS4wKOWLv+WKqCk=\\\",\\\"enterpriseUserId\\\":\\\"U0000\\\",\\\"enterpriseUserName\\\":\\\"5p2o5Zel6Iy1\\\",\\\"staffSeq\\\":\\\"0000000001\\\",\\\"staffNumber\\\":\\\"00000\\\"}\",\"Content-Length\":\"198\"}}}】\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2026-01-06 09:40:50"
+      },
+      {
+        "traceId": 0,
+        "content": "解析python返回变量【${res_data}】=【{\"timestamp\":\"2026-01-06T01:41:02.279+00:00\",\"status\":404,\"error\":\"Not Found\",\"path\":\"/rest/bal-send\"}】\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2026-01-06 09:40:50"
+      }
+    ]
+  },
+  {
+    "stepName": "(编排)新接口返回成功码校验new",
+    "treeId": 1,
+    "status": 3,
+    "action": "新接口返回成功码校验new",
+    "stepLog": [
+      {
+        "traceId": 1,
+        "content": "执行步骤：新接口返回成功码校验new\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2026-01-06 09:40:50"
+      },
+      {
+        "traceId": 1,
+        "content": "解析组件入参变量【${响应报文}】=【{\"timestamp\":\"2026-01-06T01:41:02.279+00:00\",\"status\":404,\"error\":\"Not Found\",\"path\":\"/rest/bal-send\"}】\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2026-01-06 09:40:50"
+      },
+      {
+        "traceId": 2,
+        "content": "执行步骤：json指定字段校验",
+        "logLevel": "ERROR",
+        "createTime": "2026-01-06 09:40:50"
+      }
+    ],
+    "stepChildren": [
+      {
+        "stepName": "json指定字段校验",
+        "treeId": 2,
+        "status": 3,
+        "action": "callPythonAi",
+        "stepLog": [
+          {
+            "traceId": 2,
+            "content": "执行步骤：json指定字段校验\r\n",
+            "logLevel": "DEBUG",
+            "createTime": "2026-01-06 09:40:50"
+          },
+          {
+            "traceId": 2,
+            "content": "组件入参：【verify_data】 = 【{\"timestamp\":\"2026-01-06T01:41:02.279+00:00\",\"status\":404,\"error\":\"Not Found\",\"path\":\"/rest/bal-send\"}】\r\n",
+            "logLevel": "DEBUG",
+            "createTime": "2026-01-06 09:40:50"
+          },
+          {
+            "traceId": 2,
+            "content": "组件入参：【expected_dict】 = 【{\"$.returnCode\":\"SUC0000\"}】\r\n",
+            "logLevel": "DEBUG",
+            "createTime": "2026-01-06 09:40:51"
+          },
+          {
+            "traceId": 2,
+            "content": "组件入参：【is_continue】 = 【false】\r\n",
+            "logLevel": "DEBUG",
+            "createTime": "2026-01-06 09:40:51"
+          },
+          {
+            "traceId": 2,
+            "content": "invoke python:{\"componentName\":\"json指定字段校验\",\"cloneId\":\"\",\"treeId\":\"9ed177c4-c54d-446e-8985-1aa709eceab8:14266:14267\",\"execDir\":\"D:\\\\.workspace/3002\\\\pyfile\\\\31c74638665d4d4c98441de6238256ca\\\\9a02b6812e04d705648a1b4af57dfe16\",\"projectDir\":\"D:\\\\.workspace/3002\\\\pyfile\\\\31c74638665d4d4c98441de6238256ca\\\\9a02b6812e04d705648a1b4af57dfe16\",\"componentId\":\"bi3013\",\"productCode\":\"C0862\",\"env\":\"pro\",\"tdmEnv\":\"UAT\",\"traceCaseInfo\":\"C0862;69f2d96ebd3d46c59dabad3bddd26524-排休额度变更待办发送;group=174085;recordBatchId=-1;testTaskCode=;pathId=-1;envName=UAT;resultId=28335687;taskType=1;src=fastautomator;1702857\",\"traceId\":\"2008353031853510656\",\"currentUser\":\"IT011160\",\"inputJson\":\"{\\\"verify_data\\\":{\\\"timestamp\\\":\\\"2026-01-06T01:41:02.279+00:00\\\",\\\"status\\\":404,\\\"error\\\":\\\"Not Found\\\",\\\"path\\\":\\\"/rest/bal-send\\\"},\\\"expected_dict\\\":{\\\"$.returnCode\\\":\\\"SUC0000\\\"},\\\"is_continue\\\":false}\",\"gaussQuotationMark\":false}\r\n",
+            "logLevel": "DEBUG",
+            "createTime": "2026-01-06 09:40:51"
+          },
+          {
+            "traceId": 2,
+            "content": "比对校验失败",
+            "logLevel": "ERROR",
+            "createTime": "2026-01-06 09:40:51"
+          },
+          {
+            "traceId": 2,
+            "content": "json指定字段校验结果不通过",
+            "logLevel": "ERROR",
+            "createTime": "2026-01-06 09:40:51"
+          },
+          {
+            "traceId": 2,
+            "content": "python调用失败 : 比对校验执行不通过\r\n",
+            "logLevel": "ERROR",
+            "createTime": "2026-01-06 09:40:51"
+          }
+        ]
+      }
+    ]
+  }
+]

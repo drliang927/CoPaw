@@ -1,0 +1,82 @@
+- stepName: 排休额度变更待办发送
+  treeId: 0
+  status: 2
+  action: callPythonAi
+  component:
+  - traceId: 0
+    content:
+      componentName: 排休额度变更待办发送
+      cloneId: ''
+      treeId: 419f5a33-e4a2-4a41-abe1-15ca9dab2643:14265
+      execDir: D:\.workspace/3002\pyfile\31c74638665d4d4c98441de6238256ca\9a02b6812e04d705648a1b4af57dfe16
+      projectDir: D:\.workspace/3002\pyfile\31c74638665d4d4c98441de6238256ca\9a02b6812e04d705648a1b4af57dfe16
+      componentId: si20241008095316086677
+      productCode: C0862
+      env: pro
+      tdmEnv: UAT
+      traceCaseInfo: C0862;69f2d96ebd3d46c59dabad3bddd26524-排休额度变更待办发送;group=174085;recordBatchId=-1;testTaskCode=;pathId=-1;envName=UAT;resultId=28335687;taskType=1;src=fastautomator;1702857
+      traceId: '2008352984386572288'
+      currentUser: IT011160
+      inputJson:
+        ${$.BODY_DATA.arrgRestDlyPeriod}: ''
+        ${$.BODY_DATA.arrgRestFixedBal}: ''
+        ${$.BODY_DATA.atdPeriod}: ''
+        ${$.BODY_DATA.hisPeriodFlag}: ''
+        ${$.BODY_DATA.legalHldRestBal}: ''
+        ${$.BODY_DATA.prjCode}: ''
+        ${$.BODY_DATA.recalculateShiftOcpRestFlag}: ''
+        ${$.BODY_DATA.stfSeq}: '0000000001'
+        ${kwargs}: []
+      gaussQuotationMark: false
+- stepName: (编排)新接口返回成功码校验new
+  treeId: 1
+  status: 3
+  action: 新接口返回成功码校验new
+  errorLogs:
+  - traceId: 2
+    content: 执行步骤：json指定字段校验
+    logLevel: ERROR
+    createTime: '2026-01-06 09:40:50'
+  stepChildren:
+  - stepName: json指定字段校验
+    treeId: 2
+    status: 3
+    action: callPythonAi
+    component:
+    - traceId: 2
+      content:
+        componentName: json指定字段校验
+        cloneId: ''
+        treeId: 9ed177c4-c54d-446e-8985-1aa709eceab8:14266:14267
+        execDir: D:\.workspace/3002\pyfile\31c74638665d4d4c98441de6238256ca\9a02b6812e04d705648a1b4af57dfe16
+        projectDir: D:\.workspace/3002\pyfile\31c74638665d4d4c98441de6238256ca\9a02b6812e04d705648a1b4af57dfe16
+        componentId: bi3013
+        productCode: C0862
+        env: pro
+        tdmEnv: UAT
+        traceCaseInfo: C0862;69f2d96ebd3d46c59dabad3bddd26524-排休额度变更待办发送;group=174085;recordBatchId=-1;testTaskCode=;pathId=-1;envName=UAT;resultId=28335687;taskType=1;src=fastautomator;1702857
+        traceId: '2008353031853510656'
+        currentUser: IT011160
+        inputJson:
+          verify_data:
+            timestamp: '2026-01-06T01:41:02.279+00:00'
+            status: 404
+            error: Not Found
+            path: /rest/bal-send
+          expected_dict:
+            $.returnCode: SUC0000
+          is_continue: false
+        gaussQuotationMark: false
+    errorLogs:
+    - traceId: 2
+      content: 比对校验失败
+      logLevel: ERROR
+      createTime: '2026-01-06 09:40:51'
+    - traceId: 2
+      content: json指定字段校验结果不通过
+      logLevel: ERROR
+      createTime: '2026-01-06 09:40:51'
+    - traceId: 2
+      content: "python调用失败 : 比对校验执行不通过\r\n"
+      logLevel: ERROR
+      createTime: '2026-01-06 09:40:51'

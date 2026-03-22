@@ -1,0 +1,52 @@
+[
+  {
+    "stepName": "OnlineBranchBffLogin()OnlineBranchWeb_login",
+    "treeId": 0,
+    "status": 3,
+    "action": "callPythonAi",
+    "stepLog": [
+      {
+        "traceId": 0,
+        "content": "执行步骤：OnlineBranchBffLogin()OnlineBranchWeb_login\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2025-12-13 11:21:41"
+      },
+      {
+        "traceId": 0,
+        "content": "数据画布函数请求：ExecCanvasFunctionRequestDto(productNo=C0752, expression=@execSql(线上店, onlinebranchdb, {\"keepType\":false,\"trim\":false,\"limit\":10,\"sharding\":false}, select  FROM `客户经理数据` where flag = '4',$.0.branchNo)@', $.0.yst_id)@, env=UAT, uuid=null, pythonScriptUuid=null, lockDataUuid=null, username=null, recordRequestDto=null)\r\n",
+        "logLevel": "INFO",
+        "createTime": "2025-12-13 11:21:41"
+      },
+      {
+        "traceId": 0,
+        "content": "组件入参：【env】 = 【UAT】\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2025-12-13 11:21:42"
+      },
+      {
+        "traceId": 0,
+        "content": "组件入参：【ystId】 = 【140541】\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2025-12-13 11:21:42"
+      },
+      {
+        "traceId": 0,
+        "content": "invoke python:{\"componentName\":\"OnlineBranchBffLogin()OnlineBranchWeb_login\",\"cloneId\":\"5e7f8fa69bd9b988\",\"treeId\":\"arHmIsf_xfVP5MqLCbL_-4:147040\",\"execDir\":\"C:\\\\.workspace/3000\\\\pyfile\\\\99ab1d6f2b6d16f1ea0eac18e78a9d26\\\\54a1644a585de3b177a79c292da71c9e\",\"projectDir\":\"C:\\\\.workspace/3000\\\\pyfile\\\\99ab1d6f2b6d16f1ea0eac18e78a9d26\\\\54a1644a585de3b177a79c292da71c9e\",\"componentId\":\"gi353Li8u3Yw3fefhruGM9\",\"productCode\":\"C0752\",\"env\":\"pro\",\"tdmEnv\":\"UAT\",\"traceCaseInfo\":\"C0752;d7e07699e61245f997be67122e5a6728-Test Case_086_审核人账号是否为空_审核人账号是否存在_账号不存在异常;group=417055;recordBatchId=-1;testTaskCode=;pathId=54a1644a585de3b177a79c292da71c9e;envName=UAT;resultId=26720687;taskType=1;src=fastautomator;1613621\",\"traceId\":\"1999681103048183808\",\"currentUser\":\"IT008914\",\"inputJson\":\"{\\\"env\\\":\\\"UAT\\\",\\\"ystId\\\":\\\"140541\\\"}\",\"gaussQuotationMark\":false}\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2025-12-13 11:21:42"
+      },
+      {
+        "traceId": 0,
+        "content": "导入组件实参：",
+        "logLevel": "INFO",
+        "createTime": "2025-12-13 11:21:43"
+      },
+      {
+        "traceId": 1,
+        "content": "",
+        "logLevel": "ERROR",
+        "createTime": "2025-12-13 11:21:44"
+      }
+    ]
+  }
+]

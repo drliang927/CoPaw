@@ -1,0 +1,28 @@
+[
+  {
+    "stepName": "多变量赋值",
+    "treeId": 0,
+    "status": 2,
+    "action": "多变量赋值",
+    "errorLogs": [
+      {
+        "traceId": 2,
+        "content": "发布超时仍未成功.",
+        "logLevel": "ERROR",
+        "createTime": "2025-12-21 10:32:41"
+      },
+      {
+        "traceId": 1,
+        "content": "",
+        "logLevel": "ERROR",
+        "createTime": "2025-12-21 10:32:41"
+      },
+      {
+        "traceId": 2,
+        "content": "python调用失败 : 等待应用停止超时！\r\n",
+        "logLevel": "ERROR",
+        "createTime": "2025-12-21 10:32:41"
+      }
+    ]
+  }
+]

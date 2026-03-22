@@ -1,0 +1,94 @@
+[
+  {
+    "stepName": "多变量赋值",
+    "treeId": 0,
+    "status": 2,
+    "action": "多变量赋值",
+    "stepLog": [
+      {
+        "traceId": 0,
+        "content": "执行步骤：多变量赋值\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2025-12-21 10:19:37"
+      },
+      {
+        "traceId": 0,
+        "content": "CMBT测试数据[za21Version]在节点[框架版本]解析完成，v5.10=v5.10\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2025-12-21 10:19:37"
+      },
+      {
+        "traceId": 0,
+        "content": "CMBT测试数据[useTrace]在节点[开启链路追踪]解析完成，true=true\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2025-12-21 10:19:37"
+      },
+      {
+        "traceId": 0,
+        "content": "CMBT测试数据[expWorkId]在节点[存在可复用workId记录]解析完成，notFirst=notFirst\r\n",
+        "logLevel": "DEBUG",
+        "createTime": "2025-12-21 10:19:37"
+      },
+      {
+        "traceId": 1,
+        "content": "",
+        "logLevel": "INFO",
+        "createTime": "2025-12-21 10:19:54"
+      },
+      {
+        "traceId": 2,
+        "content": "更新client_demo的OAM环境变量中.....",
+        "logLevel": "INFO",
+        "createTime": "2025-12-21 10:21:08"
+      },
+      {
+        "traceId": 2,
+        "content": "目标环境变量为：[{'key': 'bee.id.snowflake.enable', 'value': 'true', 'encrypt': False}, {'key': 'bee.id.snowflake.trace.enable', 'value': 'true', 'encrypt': False}, {'key': 'bee.id.snowflake.schedule.intervaltime', 'value': '300000', 'encrypt': False}, {'key': 'spring.profiles.active', 'value': 'tomcatMysql,redisCluster', 'encrypt': False}, {'key': 'bee.id.snowflake.database.tablePrefix', 'value': 'at_', 'encrypt': False}, {'key': 'bee.id.snowflake.database.supportForStatus', 'value': 'true', 'encrypt': False}, {'encrypt': False, 'groupId': 'LT86.02@Client_AT_V510_DEV_Za21Demo', 'key': 'JAVA_OPTS', 'public': False, 'value': '-Xmx519270K -Xms519270K -XX:MaxMetaspaceSize=188825K -XX:MetaspaceSize=188825K -Xss314K -XX:+ExitOnOutOfMemoryError -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/tmp/heapdump_LT86.02_Client_AT_V510_DEV_Za21Demo.hprof -Xloggc:/tmp/gc.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=2 -XX:GCLogFileSize=1M'}, {'encrypt': False, 'groupId': 'LT86.02@Client_AT_V510_DEV_Za21Demo', 'key': 'server.port', 'public': False, 'value': '8080'}, {'encrypt': False, 'groupId': 'LT86.02@Client_AT_V510_DEV_Za21Demo', 'key': 'tee.demo.server.route', 'public': False, 'value': 'http://za21-atserver-v510.paas.cmbchina.cn'}, {'encrypt': False, 'groupId': 'LT86.02@Client_AT_V510_DEV_Za21Demo', 'key': 'tee.demo.server.serviceName', 'public': False, 'value': 'za21-atserver-v510'}]",
+        "logLevel": "INFO",
+        "createTime": "2025-12-21 10:21:09"
+      },
+      {
+        "traceId": 2,
+        "content": "停止client_demo中.....",
+        "logLevel": "INFO",
+        "createTime": "2025-12-21 10:22:24"
+      },
+      {
+        "traceId": 2,
+        "content": "本次za21test数据库登录信息：{'host': 'za21test.mysql.dbdns.cmbchina.cn', 'port': 6446, 'user': 'somdbdev', 'password': 'xJY7BB#LT', 'database': 'za21test'}",
+        "logLevel": "INFO",
+        "createTime": "2025-12-21 10:22:24"
+      },
+      {
+        "traceId": 2,
+        "content": "发布完成",
+        "logLevel": "INFO",
+        "createTime": "2025-12-21 10:22:24"
+      },
+      {
+        "traceId": 2,
+        "content": "发布状态为Running,10秒后重试查询",
+        "logLevel": "INFO",
+        "createTime": "2025-12-21 10:32:31"
+      },
+      {
+        "traceId": 2,
+        "content": "发布超时仍未成功.",
+        "logLevel": "ERROR",
+        "createTime": "2025-12-21 10:32:41"
+      },
+      {
+        "traceId": 1,
+        "content": "",
+        "logLevel": "ERROR",
+        "createTime": "2025-12-21 10:32:41"
+      },
+      {
+        "traceId": 2,
+        "content": "python调用失败 : 等待应用停止超时！\r\n",
+        "logLevel": "ERROR",
+        "createTime": "2025-12-21 10:32:41"
+      }
+    ]
+  }
+]

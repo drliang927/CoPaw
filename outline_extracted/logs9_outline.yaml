@@ -1,0 +1,61 @@
+- stepName: 多变量赋值
+  treeId: 0
+  status: 3
+  action: 多变量赋值
+  errorLogs:
+  - traceId: 0
+    content: "数据画布执行异常：com.cmbchina.tdm.exception.ServiceException: 错误信息：Communications\
+      \ link failure\n\nThe last packet sent successfully to the server was 0 milliseconds\
+      \ ago. The driver has not received any packets from the server.\r\n\tat com.cmbchina.tdm.service.impl.CmbtTestDataServiceImpl.execFunction(CmbtTestDataServiceImpl.java:320)\r\
+      \n\tat com.cmbchina.tdm.service.impl.CmbtTestDataServiceImpl.execGeneralFunction(CmbtTestDataServiceImpl.java:217)\r\
+      \n\tat com.cmbchina.tdm.service.impl.ExecCanvasFunctionServiceImpl.execGeneralFunctionService(ExecCanvasFunctionServiceImpl.java:486)\r\
+      \n\tat com.cmbchina.tdm.service.impl.ExecCanvasFunctionServiceImpl.functionDispatcher(ExecCanvasFunctionServiceImpl.java:360)\r\
+      \n\tat com.cmbchina.tdm.service.impl.ExecCanvasFunctionServiceImpl.execInnermostExpression(ExecCanvasFunctionServiceImpl.java:295)\r\
+      \n\tat com.cmbchina.tdm.service.impl.ExecCanvasFunctionServiceImpl.execExpressionWithFunction(ExecCanvasFunctionServiceImpl.java:260)\r\
+      \n\tat com.cmbchina.tdm.service.impl.ExecCanvasFunctionServiceImpl.execExpressionWithFunction(ExecCanvasFunctionServiceImpl.java:271)\r\
+      \n\tat com.cmbchina.tdm.service.impl.ExecCanvasFunctionServiceImpl.execExpressionService(ExecCanvasFunctionServiceImpl.java:164)\r\
+      \n\tat com.cmbchina.fa.data.resolver.cmbt.utils.ResolveTestDataAutoImpl.resolveExpression(ResolveTestDataAutoImpl.java:548)\r\
+      \n\tat com.cmbchina.aitest.agent.refactor.application.components.AbstractAiTestComponent.resolveExpression(AbstractAiTestComponent.java:741)\r\
+      \n\tat com.cmbchina.aitest.agent.refactor.application.components.BatchAssignVariableComponent.verifyAndResolveActionStepInput(BatchAssignVariableComponent.java:163)\r\
+      \n\tat com.cmbchina.aitest.agent.refactor.application.components.AbstractAiTestComponent.execute(AbstractAiTestComponent.java:171)\r\
+      \n\tat com.cmbchina.aitest.agent.refactor.application.CaseInfoService.executeCaseInfo(CaseInfoService.java:276)\r\
+      \n\tat com.cmbchina.aitest.agent.refactor.application.CaseInfoService.executeCaseInfo(CaseInfoService.java:71)\r\
+      \n\tat com.cmbchina.aitest.agent.refactor.application.TestCaseTaskService.executeTestCaseWithSetupAndTeardown(TestCaseTaskService.java:648)\r\
+      \n\tat com.cmbchina.aitest.agent.refactor.application.TestCaseTaskService.executeTestCase(TestCaseTaskService.java:625)\r\
+      \n\tat com.cmbchina.aitest.agent.refactor.application.TestCaseTaskService.executeTestCase(TestCaseTaskService.java:625)\r\
+      \n\tat com.cmbchina.aitest.agent.refactor.application.TestCaseTaskService.executeTestCase(TestCaseTaskService.java:592)\r\
+      \n\tat com.cmbchina.aitest.agent.refactor.application.TestCaseTaskService.executeTestCaseTask(TestCaseTaskService.java:289)\r\
+      \n\tat com.cmbchina.aitest.agent.refactor.application.TestCaseTaskService.execute(TestCaseTaskService.java:122)\r\
+      \n\tat com.cmbchina.aitest.agent.refactor.adapter.schedule.AgentSchedule.getTask(AgentSchedule.java:103)\r\
+      \n\tat com.cmbchina.aitest.agent.refactor.adapter.schedule.AgentSchedule$$FastClassBySpringCGLIB$$c4ccdcd5.invoke(<generated>)\r\
+      \n\tat org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)\r\
+      \n\tat org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)\r\
+      \n\tat com.cmbchina.aitest.agent.refactor.adapter.schedule.AgentSchedule$$EnhancerBySpringCGLIB$$a0700f2.getTask(<generated>)\r\
+      \n\tat sun.reflect.GeneratedMethodAccessor447.invoke(Unknown Source)\r\n\tat\
+      \ sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\
+      \n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)\r\
+      \n\tat org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)\r\
+      \n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\r\
+      \n\tat java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)\r\n\t\
+      at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)\r\
+      \n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)\r\
+      \n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\
+      \n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\
+      \n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: com.cmbchina.tdm.exception.ServiceException:\
+      \ 错误信息：Communications link failure\n\nThe last packet sent successfully to the\
+      \ server was 0 milliseconds ago. The driver has not received any packets from\
+      \ the server.\r\n\tat com.cmbchina.tdm.service.impl.CmbtTestDataServiceImpl.execSqlCommon(CmbtTestDataServiceImpl.java:405)\r\
+      \n\tat com.cmbchina.tdm.service.impl.CmbtTestDataServiceImpl.execSql(CmbtTestDataServiceImpl.java:368)\r\
+      \n\tat com.cmbchina.tdm.service.impl.CmbtTestDataServiceImpl.execSql(CmbtTestDataServiceImpl.java:417)\r\
+      \n\tat sun.reflect.GeneratedMethodAccessor801.invoke(Unknown Source)\r\n\tat\
+      \ sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\
+      \n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat com.cmbchina.tdm.service.impl.CmbtTestDataServiceImpl.execFunction(CmbtTestDataServiceImpl.java:309)\r\
+      \n\t... 35 more\r\n\r\n"
+    logLevel: ERROR
+    createTime: '2025-12-27 09:56:07'
+  - traceId: 0
+    content: "执行步骤【多变量赋值】出错：错误信息：Communications link failure\n\nThe last packet sent\
+      \ successfully to the server was 0 milliseconds ago. The driver has not received\
+      \ any packets from the server.\r\n"
+    logLevel: ERROR
+    createTime: '2025-12-27 09:56:07'

@@ -1,0 +1,104 @@
+[
+  {
+    "stepName": "多变量赋值",
+    "treeId": 0,
+    "status": 2,
+    "action": "多变量赋值"
+  },
+  {
+    "stepName": "数据分片",
+    "treeId": 1,
+    "status": 3,
+    "action": "callPythonAi",
+    "component": [
+      {
+        "traceId": 1,
+        "content": {
+          "componentName": "数据分片",
+          "cloneId": "3d7bc76fc5699eec",
+          "treeId": "-nqGa_5pXjeqbTHdJrfP-6:17278",
+          "execDir": "D:\\.workspace/3000\\pyfile\\8dbf2c3f0d1b672e73659f2955a8d8e0\\ddce88d3bdca938ba0693c37041bab85",
+          "projectDir": "D:\\.workspace/3000\\pyfile\\8dbf2c3f0d1b672e73659f2955a8d8e0\\ddce88d3bdca938ba0693c37041bab85",
+          "componentId": "gi2a4c965be0264e6699c5cb2acdef5a5d",
+          "productCode": "C1173",
+          "env": "pro",
+          "tdmEnv": "ST",
+          "traceCaseInfo": "C1173;428bb3fab2144a7fb0d6737a44ca80ec-连接池类型=HIKARI_数据库类型=GAUSS_ORM框架->Mybatis_路由方式->复合分片路由_用途->分片;group=1170210;recordBatchId=-1;testTaskCode=;pathId=ddce88d3bdca938ba0693c37041bab85;envName=ST;resultId=292363706;taskType=0;src=fastautomator;2131181650",
+          "traceId": "2002196370466631680",
+          "currentUser": "IT011541",
+          "inputJson": {
+            "kwargs": [
+              {
+                "name": "algorithmType",
+                "type": "str",
+                "value": "COMPLEX",
+                "isAdd": false,
+                "desc": "",
+                "optional": []
+              },
+              {
+                "name": "ruleType",
+                "type": "str",
+                "value": "SHARDING",
+                "isAdd": false,
+                "desc": "",
+                "optional": []
+              },
+              {
+                "name": "ORMType",
+                "type": "str",
+                "value": "Mybatis",
+                "isAdd": false,
+                "desc": "",
+                "optional": []
+              },
+              {
+                "name": "dataBaseType",
+                "type": "str",
+                "value": "GAUSS",
+                "isAdd": false,
+                "desc": "",
+                "optional": []
+              },
+              {
+                "name": "dataSourceType",
+                "type": "str",
+                "value": "HIKARI",
+                "isAdd": false,
+                "desc": "",
+                "optional": []
+              }
+            ]
+          },
+          "gaussQuotationMark": false
+        }
+      }
+    ],
+    "errorLogs": [
+      {
+        "traceId": 1,
+        "content": "数据分片执行错误",
+        "logLevel": "ERROR",
+        "createTime": "2025-12-20 09:56:41"
+      },
+      {
+        "traceId": 1,
+        "content": "响应报文的返回码不是200，而是503, 503 Service Unavailable. No Route Matched.\n\n, 请求：{'session': <requests.sessions.Session object at 0x0000019E0D590170>, 'headers': None, 'host': 'za21-atserver-v6.paas.cmbchina.cn', 'url': 'http://za21-atserver-v6.paas.cmbchina.cn/persistence/sharding-sphere/complex', 'method': <RequestMethod.GET: 'get'>, 'queryParams': {'dataSourceType': 'HIKARI', 'dataBaseType': 'GAUSS'}, 'pathParams': {}, 'body': None, 'response': <Response [503]>}",
+        "logLevel": "ERROR",
+        "createTime": "2025-12-20 09:56:41"
+      },
+      {
+        "traceId": 1,
+        "content": "Traceback (most recent call last):\n  File \"service.py\", line 2435, in run_python_process\n    exec(callStmt, locals())\n  File \"<string>\", line 3, in <module>\n  File \"logger_decorator.py\", line 139, in wrap\n    return func(*args, kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"数据分片.py\", line 55, in check_sharding_result\n    assert res.response.status_code == 200, f\"响应报文的返回码不是200，而是{res.response.status_code}, {res.response.text}, 请求：{res.dict()}\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 响应报文的返回码不是200，而是503, 503 Service Unavailable. No Route Matched.\n\n, 请求：{'headers': None, 'host': 'za21-atserver-v6.paas.cmbchina.cn', 'url': 'http://za21-atserver-v6.paas.cmbchina.cn/persistence/sharding-sphere/complex', 'method': 'GET', 'queryParams': {'dataSourceType': 'HIKARI', 'dataBaseType': 'GAUSS'}, 'pathParams': {}, 'body': None, 'status_code': 503}\n",
+        "logLevel": "ERROR",
+        "createTime": "2025-12-20 09:56:41"
+      },
+      {
+        "traceId": 1,
+        "content": "python调用失败 : 响应报文的返回码不是200，而是503, 503 Service Unavailable. No Route Matched.\n\n, 请求：{'session': <requests.sessions.Session object at 0x0000019E0D590170>, 'headers': None, 'host': 'za21-atserver-v6.paas.cmbchina.cn', 'url': 'http://za21-atserver-v6.paas.cmbchina.cn/persistence/sharding-sphere/complex', 'method': <RequestMethod.GET: 'get'>, 'queryParams': {'dataSourceType': 'HIKARI', 'dataBaseType': 'GAUSS'}, 'pathParams': {}, 'body': None, 'response': <Response [503]>}\r\n",
+        "logLevel": "ERROR",
+        "createTime": "2025-12-20 09:56:41"
+      }
+    ]
+  }
+]
